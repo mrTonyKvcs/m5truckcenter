@@ -10,7 +10,7 @@
         <div class='panel-icon'>
           <i class='fa fa-group icon'></i>
         </div>
-        <div class='panel-heading'><img class="img-responsive-sm" alt="Project planning" width="768" height="300" src="/assets/images/panel1.jpg" /></div>
+        <div class='panel-heading'><img class="img-responsive-sm" alt="Project planning" width="768" height="300" src="/images/about2.png" /></div>
         <div class='panel-body'>
           <h3 class='panel-title'>{{ trans('navbar.about') }}</h3>
           <p>Fő profilunk a kamion és pótkocsi alkatrész kis és nagykereskedelem. Több éves szakmai tudás, képzettség áll munkatársaink mögött...</p>

@@ -8,7 +8,7 @@
         <span class='icon-bar'></span>
       </button>
       <a class='navbar-brand' href='{{ route('pages.index') }}'>
-        <img alt="Jednotka" width="117" height="39" src="/assets/images/logo.svg" />
+        <img alt="Jednotka" width="117" height="39" src="/images/logo.png" />
       </a>
     </div>
     <div class='collapse navbar-collapse navbar-header-collapse'>
@@ -28,14 +28,14 @@
           </a>
         </li>
         <li class="">
-          <a href="">
+          <a href="{{ route('pages.products') }}">
             <span>
               {{ trans('navbar.products-services') }}
             </span>
           </a>
         </li>
         <li class="">
-          <a href="">
+          <a href="{{ route('pages.tender') }}">
             <span>
               {{ trans('navbar.tender') }}
             </span>

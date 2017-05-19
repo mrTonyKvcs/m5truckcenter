@@ -1,8 +1,8 @@
 <div class='row'>
   <div class='col-sm-12'>
     <div class='page-header page-header-with-icon'>
-      <i class='fa fa-star'></i>
-      <h2>Top features</h2>
+      <i class='fa fa-cloud'></i>
+      <h2>Szolgaltatásaink</h2>
     </div>
     <div class='text-boxes'>
       <div class='row text-box'>

@@ -10,10 +10,22 @@ class PagesController extends Controller
     {
     	return view('pages.index');
     }
+
     public function about()
     {
     	return view('pages.about');
     }
+
+    public function products()
+    {
+        return view('pages.products');
+    }
+
+    public function tender()
+    {
+        return view('pages.tender');
+    }
+
     public function contact()
     {
     	return view('pages.contact');
