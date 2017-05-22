@@ -1,9 +1,9 @@
 <?php
 return [
 	'home'	=> 'Kezdőlap',
-	'about'	=> 'Cégünkről',
+	'about'	=> 'Rólunk',
 	'products-services'	=> 'Termékeink & Szolgáltatásaink',
 	'tender'			=> 'Ajánlatkérés',
-	'contact'			=> 'Kapcsolat',
-	'language'			=> 'Nyelv'
+	'contact'			=> 'Elérhetőségek',
+	'language'			=> 'Nyelv választás'
 ];

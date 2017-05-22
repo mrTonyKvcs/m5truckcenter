@@ -1,6 +1,6 @@
 <?php
 return [
-	'title'	=> 'Cégünkről',
+	'title'	=> 'Rólunk',
 	'who'	=> 'Kik vagyunk',
 	'team'	=> 'Csapatunk'
 ];

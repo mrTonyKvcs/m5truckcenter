@@ -8,9 +8,6 @@
              M5 Truck Center
             </h1>
             <p class='normal fadeInUp animated'>Alkatrészt szolgáltatunk</p>
-            <a class='btn btn-contrast btn-lg fadeInRight animated' href='#'>
-              Show more
-            </a>
           </div>
         </div>
       </div>
@@ -20,12 +17,9 @@
         <div class='row'>
           <div class='col-lg-12 animate'>
             <h2 class='big fadeInLeftBig animated'>
-              Kamion és pótkocsi alkatrész kis és nagykereskedelem.
+              M5 Truck Center
             </h2>
-            {{-- <p class='normal fadeInRightBig animated'>Bármilyen egyéb kamion, pótkocsi, busz, munkagép alkatrész beszerzésében állunk rendelkezésre!</p> --}}
-            <a class='btn btn-contrast btn-lg fadeInDownBig animated' href='#'>
-              Show more
-            </a>
+            <p class='normal fadeInRightBig animated'>„Azonnal javítjuk”</p>
           </div>
         </div>
       </div>
@@ -34,11 +28,8 @@
       <div class='container'>
         <div class='row'>
           <div class='col-lg-12 animate'>
-            <h2 class='big fadeInRightBig animated'>Based on Twitter Bootstrap</h2>
-            <p class='normal fadeInLeftBig animated'>Nam nec tellus molestie, sollicitudin, at...</p>
-            <a class='btn btn-contrast btn-lg fadeInUpBig animated' href='#'>
-              Show more
-            </a>
+            <h2 class='big fadeInRightBig animated'>M5 Truck Center</h2>
+            <p class='normal fadeInLeftBig animated'>Gondoskodunk az ügyintézésről</p>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 <?php
 return [
-	'title'			=> 'Kapcsolat',
+	'title'			=> 'Elérhetőségek',
 	'contact-info'	=> 'Elérhetőségeink',
 	'contact-form'	=> 'Üzenet küldés',
 	'shop'			=> 'Üzletünk, központi raktárunk',
