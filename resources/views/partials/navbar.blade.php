@@ -13,35 +13,35 @@
     </div>
     <div class='collapse navbar-collapse navbar-header-collapse'>
       <ul class='nav navbar-nav navbar-right'>
-        <li class="active">
+        <li class="{{ active_menu(Route::currentRouteName(), 'pages.index') }}">
           <a href="{{ route('pages.index') }}">
             <span>
               {{ trans('navbar.home') }}
             </span>
           </a>
         </li>
-        <li class="">
+        <li class="{{ active_menu(Route::currentRouteName(), 'pages.about') }}">
           <a href="{{ route('pages.about') }}">
             <span>
               {{ trans('navbar.about') }}
             </span>
           </a>
         </li>
-        <li class="">
+        <li class="{{ active_menu(Route::currentRouteName(), 'pages.products') }}">
           <a href="{{ route('pages.products') }}">
             <span>
               {{ trans('navbar.products-services') }}
             </span>
           </a>
         </li>
-        <li class="">
+        <li class="{{ active_menu(Route::currentRouteName(), 'pages.tender') }}">
           <a href="{{ route('pages.tender') }}">
             <span>
               {{ trans('navbar.tender') }}
             </span>
           </a>
         </li>
-        <li class="">
+        <li class="{{ active_menu(Route::currentRouteName(), 'pages.contact') }}">
           <a href="{{ route('pages.contact') }}">
             <span>
               {{ trans('navbar.contact') }}
