@@ -8,6 +8,12 @@
         <p class='no-mg-b'>Vállakozásunk 2017 év elején indult Kecskeméten. Fő profilunk a kamion és pótkocsi alkatrész kis és nagykereskedelem.</p>
       </div>
       <div class='col-md-3 col-sm-6 info-box'>
+        <h2 class='title'>Oldaltérkép</h2>
+        <p><a href="{{ route('pages.products') }}">{{ trans('navbar.products-services') }}</a></p>
+        <p><a href="{{ route('pages.tender') }}">{{ trans('navbar.tender') }}</a></p>
+        <p><a href="{{ route('pages.contact') }}">{{ trans('navbar.contact') }}</a></p>
+      </div>
+      <div class='col-md-3 col-sm-6 info-box'>
         <h2 class='title'>{{ trans('navbar.contact') }}</h2>
         <div class='icon-boxes'>
           <div class='icon-box'>
@@ -61,22 +67,7 @@
           </div>
         </div>
       </div>
-      <div class='col-md-3 col-sm-6 info-box'>
-        <h2 class='title'>Newsletter</h2>
-        <p>Proin condimentum, nisi vel vestibulum ultricies, nunc elit.</p>
-        <form action='index.html' class='form-inline form-validation' method='get'>
-          <div class='row'>
-            <div class='form-group control-group col-xs-9 col-md-8 col-lg-9'>
-              <input class='form-control' data-rule-email='true' data-rule-required='true' id='newsletter_email' name='newsletter[email]' placeholder='Email address' type='email'>
-            </div>
-            <div class='col-xs-3 col-md-4 col-lg-3'>
-              <button class='btn btn-medium-light btn-block' type='submit'>
-                <i class='fa fa-reply text-white'></i>
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
+
     </div>
   </div>
 </div>

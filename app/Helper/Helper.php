@@ -2,7 +2,7 @@
 if ( !function_exists('active_menu')) 
 {
 	function active_menu($currentRouteName, $requestName) {
-		if ( substr($currentRouteName, 0) == $requestName) {
+		if ( $currentRouteName == $requestName) {
 			return 'active';
 		}
 		else {
