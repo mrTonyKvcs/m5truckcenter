@@ -5,5 +5,8 @@ return [
 	'products-services'	=> 'Products & Services',
 	'tender'			=> 'Tender',
 	'contact'			=> 'Contact',
-	'language'			=> 'Language'
+	'language'			=> 'Language',
+
+	//Footer
+	'sitemap'			=> 'Sitemap'
 ];

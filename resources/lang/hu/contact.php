@@ -6,5 +6,9 @@ return [
 	'shop'			=> 'Üzletünk, központi raktárunk',
 
 	//Contact info
-	'hours'	=> 'Nyitvatartás'
+	'telephone'		=> 'Telefonszám',
+	'hours'			=> 'Nyitvatartás',
+	'monday-friday'	=> 'Hétfő - Péntek',
+	'saturday'		=> 'Szombat',
+	'sunday'		=> 'Vasárnap'
 ];

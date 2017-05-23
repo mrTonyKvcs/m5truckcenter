@@ -5,5 +5,8 @@ return [
 	'products-services'	=> 'Termékeink & Szolgáltatásaink',
 	'tender'			=> 'Ajánlatkérés',
 	'contact'			=> 'Elérhetőségek',
-	'language'			=> 'Nyelv választás'
+	'language'			=> 'Nyelv választás',
+
+	//Footer
+	'sitemap'			=> 'Oldaltérkép'
 ];

@@ -8,7 +8,7 @@
         <p class='no-mg-b'>Vállakozásunk 2017 év elején indult Kecskeméten. Fő profilunk a kamion és pótkocsi alkatrész kis és nagykereskedelem.</p>
       </div>
       <div class='col-md-3 col-sm-6 info-box'>
-        <h2 class='title'>Oldaltérkép</h2>
+        <h2 class='title'>{{ trans('navbar.sitemap') }}</h2>
         <p><a href="{{ route('pages.products') }}">{{ trans('navbar.products-services') }}</a></p>
         <p><a href="{{ route('pages.tender') }}">{{ trans('navbar.tender') }}</a></p>
         <p><a href="{{ route('pages.contact') }}">{{ trans('navbar.contact') }}</a></p>

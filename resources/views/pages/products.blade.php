@@ -29,7 +29,7 @@
 		    </div>
 		    <div class='text-boxes'>
 		      <div class='row text-box'>
-		        <div class='col-sm-6'><img class="img-responsive center-block" alt="Lorem ipsum dolor sit amet" width="340" height="188" src="http://placehold.it/340x188" /></div>
+		        <div class='col-sm-6'><img class="img-responsive center-block" alt="Lorem ipsum dolor sit amet" width="340" height="188" src="/images/sm-alkatreszek_piros.png" /></div>
 		        <div class='col-sm-6'>
 		          <h3 class='title'><a href="#">Alkatrész kereskedés</a></h3>
 		          <p>
@@ -39,7 +39,7 @@
 		      </div>
 		      <hr>
 		      <div class='row text-box'>
-		        <div class='col-sm-6 col-sm-push-6'><img class="img-responsive center-block" alt="Praesent vitae adipiscing nunc" width="330" height="183" src="http://placehold.it/330x183" /></div>
+		        <div class='col-sm-6 col-sm-push-6'><img class="img-responsive center-block" alt="Praesent vitae adipiscing nunc" width="330" height="183" src="/images/sm-szerviz.png" /></div>
 		        <div class='col-sm-6 col-sm-pull-6'>
 		          <h3 class='title'><a href="#">Kamion szervíz</a></h3>
 		          <p>
@@ -49,7 +49,7 @@
 		      </div>
 		      <hr>
 		      <div class='row text-box'>
-		        <div class='col-sm-6'><img class="img-responsive center-block" alt="Lorem ipsum dolor sit amet" width="340" height="188" src="http://placehold.it/340x188" /></div>
+		        <div class='col-sm-6'><img class="img-responsive center-block" alt="Lorem ipsum dolor sit amet" width="340" height="188" src="/images/sm-atiras.png" /></div>
 		        <div class='col-sm-6'>
 		          <h3 class='title'><a href="#">Átírás</a></h3>
 		          <p>Nem kell többet várnia okmányirodákban! Központi irodánkban szakképzett kollégáink biztosítják mindennemű gépjármű:</p>

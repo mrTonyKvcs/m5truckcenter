@@ -60,7 +60,7 @@
             <div class='icon-wrap icon-circle contrast-bg icon-md'>
               <i class='fa fa-phone text-white'></i>
             </div>
-            <h3>Telephone</h3>
+            <h3>{{ trans('contact.telephone') }}</h3>
             <ul class='list-unstyled'>
               <li><a href="tel:+36308504403">+36308504403</a></li>
             </ul>
@@ -81,18 +81,15 @@
             <h3>{{ trans('contact.hours') }}</h3>
             <ul class='list-unstyled'>
               <li>
-                Monday - Friday
-                &mdash;
+                {{ trans('contact.monday-friday') }}:
                 <strong>00:00 - 24:00</strong>
               </li>
               <li>
-                Saturday
-                &mdash;
+                {{ trans('contact.saturday') }}:
                 <strong>00:00 - 24:00</strong>
               </li>
               <li>
-                Sunday
-                &mdash;
+                {{ trans('contact.sunday') }}:
                 <strong>00:00 - 24:00</strong>
               </li>
             </ul>

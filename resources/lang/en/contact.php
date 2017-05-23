@@ -6,5 +6,9 @@ return [
 	'shop'			=> 'Our shop, our central warehouse',
 	
 	//Contact info
-	'hours'	=> 'Business hours'
+	'telephone'		=> 'Telephone',
+	'hours'			=> 'Business hours'
+	'monday-friday'	=> 'Monday - Friday',
+	'saturday'		=> 'Saturday',
+	'sunday'		=> 'Sunday'
 ];
