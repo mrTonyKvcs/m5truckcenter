@@ -7,7 +7,7 @@ return [
 	
 	//Contact info
 	'telephone'		=> 'Telephone',
-	'hours'			=> 'Business hours'
+	'hours'			=> 'Business hours',
 	'monday-friday'	=> 'Monday - Friday',
 	'saturday'		=> 'Saturday',
 	'sunday'		=> 'Sunday'
