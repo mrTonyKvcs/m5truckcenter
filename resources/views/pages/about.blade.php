@@ -59,18 +59,7 @@
                 <div class='col-sm-8'>
                   <h3 class='name'>Ugrik Milán</h3>
                   <h4 class='position'>Cégvezető</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum varius ipsum,</p>
-                  <div class='links'>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-twitter'></i>
-                    </a>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-google-plus'></i>
-                    </a>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-facebook'></i>
-                    </a>
-                  </div>
+                  <p>Értékesítés, árajánlat, beszerzés, műszaki segítségnyújtás</p>
                 </div>
               </div>
             </div>
@@ -83,68 +72,9 @@
                   </a>
                 </div>
                 <div class='col-sm-8'>
-                  <h3 class='name'>Jane Doe</h3>
-                  <h4 class='position'>Webdesigner</h4>
-                  <p>Praesent eu placerat enim, vitae condimentum arcu. Aenean ac semper purus.</p>
-                  <div class='links'>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-twitter'></i>
-                    </a>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-dribbble'></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='col-sm-6 profile-box'>
-              <div class='row'>
-                <div class='col-sm-4'>
-                  <a class='image-link' data-lightbox data-lightbox-gallery='team' href='http://placehold.it/800x800&amp;text=Big+image' title='John Doe'>
-                    <i class='fa fa-camera-retro'></i>
-                    <img alt="John Doe" width="165" height="165" src="http://placehold.it/165x165" />
-                  </a>
-                </div>
-                <div class='col-sm-8'>
-                  <h3 class='name'>John Doe</h3>
-                  <h4 class='position'>SEO specialist</h4>
-                  <p>Ut et quam at orci eleifend laoreet. Duis in eros eu purus pulvinar fermentum.</p>
-                  <div class='links'>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-twitter'></i>
-                    </a>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-skype'></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class='col-sm-6 profile-box'>
-              <div class='row'>
-                <div class='col-sm-4'>
-                  <a class='image-link' data-lightbox data-lightbox-gallery='team' href='http://placehold.it/800x800&amp;text=Big+image' title='Jessica Doe'>
-                    <i class='fa fa-camera-retro'></i>
-                    <img alt="Jessica Doe" width="165" height="165" src="http://placehold.it/165x165" />
-                  </a>
-                </div>
-                <div class='col-sm-8'>
-                  <h3 class='name'>Jessica Doe</h3>
-                  <h4 class='position'>Programmer</h4>
-                  <p>Vivamus et malesuada leo. Duis iaculis in ipsum at tempor. Ut rutrum dolor quis du.</p>
-                  <div class='links'>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-twitter'></i>
-                    </a>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-github'></i>
-                    </a>
-                    <a class='btn btn-medium-light btn-sm btn-circle' href='#'>
-                      <i class='fa fa-facebook'></i>
-                    </a>
-                  </div>
+                  <h3 class='name'>Sebők Attila</h3>
+                  <h4 class='position'>Szerviz vezető</h4>
+                  <p>Szervízelés, műszaki mentés, alkatrész kiszállítás</p>
                 </div>
               </div>
             </div>

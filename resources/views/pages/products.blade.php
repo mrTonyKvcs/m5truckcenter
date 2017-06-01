@@ -47,86 +47,107 @@
 		          </p>
 		        </div>
 		      </div>
-		      <hr>
-		      <div class='row text-box'>
-		        <div class='col-sm-6'><img class="img-responsive center-block" alt="Lorem ipsum dolor sit amet" width="340" height="188" src="/images/sm-atiras.png" /></div>
-		        <div class='col-sm-6'>
-		          <h3 class='title'><a href="#">Átírás</a></h3>
-		          <p>Nem kell többet várnia okmányirodákban! Központi irodánkban szakképzett kollégáink biztosítják mindennemű gépjármű:</p>
-		          <div class="row">
-		          	<div class="col-sm-6">
-						<ul>
-							<li>Átírásának</li>
-							<li>Forgalomba helyezésének</li>
-							<li>Vizsgáztatának</li>
-						</ul>
-		          	</div>
-		          	<div class="col-sm-6">
-		          		<ul>
-							<li>Névre írásának</li>
-							<li>Rendszámának</li>
-							<li>Biztosításának</li>
-						</ul>
-		          	</div>
-		          </div>
-					<p>
-						komplex, azonnali ügyintézését flották számára is! Szolgáltatásunk keretében töredékére csökken a gépjármű ügyintézéssel kapcsolatos utánajárásra eltöltött ideje! Részletes ügyintézési információkért, egyénileg személyre szabott árajánlatért keresse kollégánkat most!
-					</p>
-		        </div>
-		      </div>
 		    </div>
 		  </div>
 		</div>
         <div class='row'>
               <div class='col-sm-12'>
                 <div class='page-header page-header-with-icon'>
-                  <i class='fa fa-wrench'></i>
+				<i class='fa fa-wrench'></i>
                   <h2>
                     Termékeink
                   </h2>
                 </div>
-                <div class='icon-boxes icon-boxes-lg'>
-                  <div class='row'>
-                    <div class='col-sm-6 icon-box'>
-                      <div class='icon icon-wrap icon-circle icon-lg contrast-bg'>
-                        <i class='fa fa-truck text-white'></i>
-                      </div>
-                      <div class='content'>
-                        <h3 class='title'>Shipping</h3>
-                        <p>Curabitur id ante at diam consectetur mattis. Donec tristique est turpis, et dapibus odio accumsan non. Donec rutrum sodales interdum.</p>
-                      </div>
+	            <div class='row portfolio-boxes'>
+	              <div class='carousel carousel-default slide carousel-auto' id='carousel-related-work'>
+	                <div class='carousel-inner'>
+	                  <div class='item active'>
+	                    <div class='col-sm-3 portfolio-box'>
+                      
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Etiam vestibulum" width="262" height="171" src="/images/products/karosszeria.jpg" />
+                        </div>
+                        <h3 class='title'>Karosszéria</h3>
                     </div>
-                    <div class='col-sm-6 icon-box'>
-                      <div class='icon icon-wrap icon-circle icon-lg contrast-bg'>
-                        <i class='fa fa-wrench text-white'></i>
-                      </div>
-                      <div class='content'>
-                        <h3 class='title'>Technical support</h3>
-                        <p>Nulla consectetur turpis a ante tristique feugiat. In venenatis pellentesque leo vehicula consequat. Maecenas elementum velit ut leo imperdiet vehicula.</p>
-                      </div>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Malesuada" width="262" height="171" src="/images/products/vilagitas.jpg" />
+                        </div>
+                        <h3 class='title'>Világítás</h3>
+                    </div>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Dictum vulputate" width="262" height="171" src="/images/products/motorikus_alkatreszek.jpg" />
+                        </div>
+                        <h3 class='title'>Motorikus alkatrészek</h3>
+                    </div>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Dictum vulputate" width="262" height="171" src="/images/products/kipufogo_rendszere_ es_ alkatreszei.jpg" />
+                        </div>
+                        <h3 class='title'>Kipufogó rendszerek és alkatrészei</h3>
                     </div>
                   </div>
-                  <div class='row'>
-	            <div class='col-sm-6 icon-box'>
-	              <div class='icon icon-wrap icon-circle icon-lg contrast-bg'>
-	                <i class='fa fa-tag text-white'></i>
-	              </div>
-	              <div class='content'>
-	                <h3 class='title'>Warranty</h3>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed massa quis elit sagittis tempor. Ut rutrum sem vel augue rhoncus vestibulum.</p>
-	              </div>
-	            </div>
-	            <div class='col-sm-6 icon-box'>
-	              <div class='icon icon-wrap icon-circle icon-lg contrast-bg'>
-	                <i class='fa fa-shield text-white'></i>
-	              </div>
-	              <div class='content'>
-	                <h3 class='title'>Security</h3>
-	                <p>Cras aliquam accumsan lorem, ac cursus orci molestie eget. Ut nec ultricies augue. Vestibulum lobortis enim felis, non semper arcu convallis at.</p>
-	              </div>
-	            </div>
-	          </div>
-	        </div>
+                  <div class='item'>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Malesuada" width="262" height="171" src="/images/products/hutorendszerek.jpg" />
+                        </div>
+                        <h3 class='title'>Hűtőrendszerek</h3>
+                    </div>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Malesuada" width="262" height="171" src="/images/products/kuplung_es_valto_alkatreszek.jpg" />
+                        </div>
+                        <h3 class='title'>Kuplung és váltó alkatrészek</h3>
+                    </div>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Cullamcorper" width="262" height="171" src="/images/products/vezetofulke_alkatreszek.jpg" />
+                        </div>
+                        <h3 class='title'>Vezetőfülke alkatrészek</h3>
+                    </div>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Etiam posuere" width="262" height="171" src="/images/products/meghajtas_es_futomu_alkatreszek.jpg" />
+                        </div>
+                        <h3 class='title'>Meghajtás és futómű alkatrészek</h3>
+                    </div>
+                  </div>
+                  <div class='item'>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Malesuada" width="262" height="171" src="/images/products/fekrendszerek.jpg" />
+                        </div>
+                        <h3 class='title'>Fékrendszerek</h3>
+                    </div>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Malesuada" width="262" height="171" src="/images/products/pneumatikus_szelepek.jpg" />
+                        </div>
+                        <h3 class='title'>Pneumatikus szelepek</h3>
+                    </div>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Cullamcorper" width="262" height="171" src="/images/products/felfuggesztes.jpg" />
+                        </div>
+                        <h3 class='title'>Felfüggesztés</h3>
+                    </div>
+                    <div class='col-sm-3 portfolio-box'>
+                        <div class='image-link'>
+                          <img class="img-responsive img-rounded center-block" alt="Etiam posuere" width="262" height="171" src="/images/products/kormanyzas.jpg" />
+                        </div>
+                        <h3 class='title'>Kormányzás</h3>
+                    </div>
+                  </div>
+                </div>
+                <ol class='carousel-indicators'>
+                  <li class='active' data-slide-to='0' data-target='#carousel-related-work'></li>
+                  <li data-slide-to='1' data-target='#carousel-related-work'></li>
+                  <li data-slide-to='2' data-target='#carousel-related-work'></li>
+                </ol>
+              </div>
+            </div>
 	      </div>
 	    </div>
 	</div>
