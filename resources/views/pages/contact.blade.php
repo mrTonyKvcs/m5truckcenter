@@ -103,7 +103,7 @@
           <i class='fa fa-envelope'></i>
           <h2>{{ trans('contact.contact-form') }}</h2>
         </div>
-        <form class='form form-validation form-contact' method='post'>
+        {!! Form::open(['route' => 'mail.contact', 'class' => 'form form-validation']) !!}
           <div class='row'>
             <div class='col-sm-12'>
               <div class='alert alert-success form-contact-success hidden'>Thanks! Your message has been successfully sent!</div>
@@ -113,29 +113,34 @@
           <div class='row'>
             <div class='col-sm-6'>
               <div class='form-group control-group'>
-                <input class='form-control' data-rule-required='true' name='name' placeholder='Name' type='text'>
-                <!-- / this field is required for simple anti spam function, don't remove it! -->
-                <input class='form-control' name='human' placeholder='Are you human?' style='display: none;' type='text'>
+                <div class='form-group control-group'>
+                  {{ Form::text('name', null, ['class' => 'form-control control-group', 'placeholder' => 'Név', 'type' => 'text']) }}
+                </div>
               </div>
             </div>
             <div class='col-sm-6'>
               <div class='form-group control-group'>
-                <input class='form-control' data-rule-email='true' data-rule-required='true' name='email' placeholder='E-Mail' type='email'>
+                {{ Form::text('email', null, ['class' => 'form-control control-group', 'placeholder' => 'Email', 'type' => 'email']) }}
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class='form-group control-group'>
+                {{ Form::text('phone', null, ['class' => 'form-control control-group', 'placeholder' => 'Telefonszám', 'type' => 'text']) }}
               </div>
             </div>
           </div>
           <div class='row'>
             <div class='col-sm-12'>
               <div class='form-group control-group'>
-                <textarea class='form-control' data-rule-required='true' name='message' placeholder='Your message...'></textarea>
+                {{ Form::textarea('message', null, ['class' => 'form-control control-group', 'placeholder' => 'Üzenet', 'type' => 'text']) }}
               </div>
             </div>
           </div>
           <div class='row'>
             <div class='col-sm-12'>
-              <button class='btn btn-contrast btn-block form-contact-submit' data-loading-text="&lt;i class='fa fa-refresh fa-spin'&gt;&lt;/i&gt; Sending..." type='submit'>
-                Send message
-              </button>
+              {{ Form::submit('Küldés', ['class' => 'btn btn-contrast btn-block form-contact-submit']) }}
             </div>
           </div>
         </form>

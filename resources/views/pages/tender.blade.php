@@ -50,17 +50,22 @@
          <div class='row'>
           <div class='col-sm-6'>
             <div class='form-group control-group'>
-              {{ Form::text('vehicle_type', null, ['class' => 'form-control control-group', 'placeholder' => 'Gépjármű típusa', 'type' => 'text']) }}
+              {{ Form::text('email', null, ['class' => 'form-control control-group', 'placeholder' => 'Email', 'type' => 'email']) }}
             </div>
           </div>
           <div class='col-sm-6'>
             <div class='form-group control-group'>
-              {{ Form::text('chassis_number', null, ['class' => 'form-control control-group', 'placeholder' => 'Alvázszám', 'type' => 'text']) }}
+              {{ Form::text('vehicle_type', null, ['class' => 'form-control control-group', 'placeholder' => 'Gépjármű típusa', 'type' => 'text']) }}
             </div>
           </div>
         </div>
          <div class='row'>
-          <div class='col-sm-12'>
+         <div class='col-sm-6'>
+            <div class='form-group control-group'>
+              {{ Form::text('chassis_number', null, ['class' => 'form-control control-group', 'placeholder' => 'Alvázszám', 'type' => 'text']) }}
+            </div>
+          </div>
+          <div class='col-sm-6'>
             <div class='form-group control-group'>
               {{ Form::text('part', null, ['class' => 'form-control control-group', 'placeholder' => 'Keresett alkatrészek megnevezése', 'type' => 'text']) }}
             </div>

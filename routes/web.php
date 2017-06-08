@@ -14,6 +14,7 @@ Route::group(
 	Route::get(LaravelLocalization::transRoute('routes.contact'), ['as'	=>	'pages.contact', 'uses'	=> 'PagesController@contact']);
 	//Mail
 	Route::post('tender', ['as'	=> 'mail.tender', 'uses' => 'MailsController@sendTenderToSupport']);
+	Route::post('contact', ['as'	=> 'mail.contact', 'uses' => 'MailsController@sendMailToSupport']);
 });
 //Auth
 Auth::routes();

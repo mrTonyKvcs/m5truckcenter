@@ -82,12 +82,6 @@
         </p>
         <div class='links'>
           <a class='btn btn-circle btn-medium-light btn-sm' href='#'>
-            <i class='fa fa-twitter text-dark'></i>
-          </a>
-          <a class='btn btn-circle btn-medium-light btn-sm' href='#'>
-            <i class='fa fa-dribbble text-dark'></i>
-          </a>
-          <a class='btn btn-circle btn-medium-light btn-sm' href='#'>
             <i class='fa fa-facebook text-dark'></i>
           </a>
         </div>

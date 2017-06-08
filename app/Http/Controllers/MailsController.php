@@ -11,6 +11,7 @@ class MailsController extends Controller
     	// $this->validate($request, [
      //        'name'      			=> 'required',
      //        'phone'     			=> 'required',
+     //        'email'                 => 'required',
      //        'vehicle_type'			=> 'required',
      //        'chassis_number'		=> 'required',
      //        'part'					=> 'required',
@@ -18,12 +19,23 @@ class MailsController extends Controller
      //    ]);
         \Mail::send('emails.tender', ['data' => $request], function ($m) use ($request) {
             $m->to("attila.kovacs92@gmail.com")
-	            ->subject('Árajánlat')
-		        // ->from("test@test.com", $request->name);
+	            ->subject('M5TruckCenter Weblap: Árajánlat')
+		        ->from($request->email, $request->name);
         });
 
         // flash()->success('Köszönjük!', 'Az üzenetét elküldtük.');
         // flash()->success(trans('message.title'), trans('message.body'));
+
+        return back();
+    }
+
+    public function sendMailToSupport(Request $request)
+    {
+        \Mail::send('emails.contact', ['data' => $request], function ($m) use ($request) {
+            $m->to("attila.kovacs92@gmail.com")
+                ->subject('M5TruckCenter Weblap: Érdeklődés')
+                ->from($request->email, $request->name);
+        });
 
         return back();
     }
