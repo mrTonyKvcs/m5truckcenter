@@ -32,7 +32,7 @@
         <div class='row'>
 			<div class='col-sm-12'>
 	            <p class='lead lead-md text-left'>
-		            Vállakozásunk 2017 év elején indult Kecskeméten. Fő profilunk a kamion és pótkocsi alkatrész kis és nagykereskedelem. Több éves szakmai tudás, képzettség áll munkatársaink mögött, akik a nap 24 órájában azon dolgoznak hogy a megrendelések pontosan, precízen legyenek végrehajtva. Legyen szó bármilyen típusú, évjáratú, kivitelű tehergépjárműről vagy pótkocsiról, kollégáink azonnali árajánlatot adnak Önnek, rugalmas szállítási módjaink közül pedig Ön választhatja ki hogyan szeretne hozzájutni a kért alkatrészhez. Fontosnak tartjuk Ügyfeleink maximális kényelmét, tisztában vagyunk vele, hogy a meghibásodott alkatrészek azonnali pótlása rendkívül fontos, mindent megteszünk, hogy elégedett legyen szolgáltatásainkkal, beleértve az azonnali házhozszállítást, szakmai információk illetve tapasztalatok átadását. Minden vevői igényt megpróbálunk kielégíteni, amennyiben bármilyen kérése van, kollégáink készségesen állnak rendelkezésére. Országos illetve nemzetközi szállítói kapcsolatokkal rendelkezünk, nem ismerünk lehetetlent a problémák megoldásában. Készletünk folyamatos bővítése mellett, azonnal beszerezzük a kért alkatrészt amennyiben nincs raktárkészleten, beszállítói hálózatunk a legkorszerűbb logisztikával rendelkezik. Keresse kollégáinkat bizalommal!
+		           {{ trans('about.text') }}
 	            </p> 
 			</div>
         </div>
@@ -51,30 +51,24 @@
             <div class='col-sm-6 profile-box'>
               <div class='row'>
                 <div class='col-sm-4'>
-                  <a class='image-link' data-lightbox data-lightbox-gallery='team' href='http://placehold.it/800x800&amp;text=Big+image' title='David Doe'>
-                    <i class='fa fa-envelope'></i>
-                    <img alt="David Doe" width="165" height="165" src="http://placehold.it/165x165" />
-                  </a>
+                  <img alt="{{ trans('about.manager-name') }}" width="165" height="165" src="http://placehold.it/165x165" />
                 </div>
                 <div class='col-sm-8'>
-                  <h3 class='name'>Ugrik Milán</h3>
-                  <h4 class='position'>Cégvezető</h4>
-                  <p>Értékesítés, árajánlat, beszerzés, műszaki segítségnyújtás</p>
+                  <h3 class='name'>{{ trans('about.manager-name') }}</h3>
+                  <h4 class='position'>{{ trans('about.manager') }}</h4>
+                  <p>{{ trans('about.manager-text') }}</p>
                 </div>
               </div>
             </div>
             <div class='col-sm-6 profile-box'>
               <div class='row'>
                 <div class='col-sm-4'>
-                  <a class='image-link' data-lightbox data-lightbox-gallery='team' href='http://placehold.it/800x800&amp;text=Big+image' title='Jane Doe'>
-                    <i class='fa fa-heart-o'></i>
-                    <img alt="Jane Doe" width="165" height="165" src="http://placehold.it/165x165" />
-                  </a>
+                  <img alt="{{ trans('about.service-manager-name') }}" width="165" height="165" src="http://placehold.it/165x165" />
                 </div>
                 <div class='col-sm-8'>
-                  <h3 class='name'>Sebők Attila</h3>
-                  <h4 class='position'>Szerviz vezető</h4>
-                  <p>Szervízelés, műszaki mentés, alkatrész kiszállítás</p>
+                  <h3 class='name'>{{ trans('about.service-manager-name') }}</h3>
+                  <h4 class='position'>{{ trans('about.service-manager') }}</h4>
+                  <p>{{ trans('about.service-manager-text') }}</p>
                 </div>
               </div>
             </div>

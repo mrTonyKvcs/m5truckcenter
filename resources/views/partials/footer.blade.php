@@ -5,7 +5,7 @@
         <div class='logo-container'>
           <img alt="Jednotka" width="117" height="39" src="/assets/images/m5_bg_logo.png" />
         </div>
-        <p class='no-mg-b'>Vállakozásunk 2017 év elején indult Kecskeméten. Fő profilunk a kamion és pótkocsi alkatrész kis és nagykereskedelem.</p>
+        <p class='no-mg-b'>{{ trans('home.footer-text') }}</p>
       </div>
       <div class='col-md-3 col-sm-6 info-box'>
         <h2 class='title'>{{ trans('navbar.sitemap') }}</h2>

@@ -7,7 +7,7 @@
             <h1 class='big fadeInUp animated'>
              M5 Truck Center
             </h1>
-            <p class='normal fadeInUp animated'>Alkatrészt szolgáltatunk</p>
+            <p class='normal fadeInUp animated'>{{ trans('home.first-title') }}</p>
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@
             <h2 class='big fadeInLeftBig animated'>
               M5 Truck Center
             </h2>
-            <p class='normal fadeInRightBig animated'>Azonnal javítjuk</p>
+            <p class='normal fadeInRightBig animated'>{{ trans('home.second-title') }}</p>
           </div>
         </div>
       </div>

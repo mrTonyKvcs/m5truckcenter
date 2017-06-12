@@ -2,13 +2,16 @@
 return [
 	'title'	=> 'Contact',
 	'contact-info'	=> 'Contact Info',
-	'contact-form'	=> 'Contact Form',
+	'contact-form'	=> 'Send a message to Us',
 	'shop'			=> 'Our shop, our central warehouse',
 	
 	//Contact info
+	'address'		=> 'Address',
 	'telephone'		=> 'Telephone',
-	'hours'			=> 'Business hours',
+	'hours'			=> 'Working hours',
 	'monday-friday'	=> 'Monday - Friday',
 	'saturday'		=> 'Saturday',
-	'sunday'		=> 'Sunday'
+	'sunday'		=> 'Sunday',
+
+	'message'		=> 'Message'
 ];

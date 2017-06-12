@@ -114,33 +114,33 @@
             <div class='col-sm-6'>
               <div class='form-group control-group'>
                 <div class='form-group control-group'>
-                  {{ Form::text('name', null, ['class' => 'form-control control-group', 'placeholder' => 'Név', 'type' => 'text']) }}
+                  {{ Form::text('name', null, ['class' => 'form-control control-group', 'placeholder' => trans('tender.name'), 'type' => 'text']) }}
                 </div>
               </div>
             </div>
             <div class='col-sm-6'>
               <div class='form-group control-group'>
-                {{ Form::text('email', null, ['class' => 'form-control control-group', 'placeholder' => 'Email', 'type' => 'email']) }}
+                {{ Form::text('email', null, ['class' => 'form-control control-group', 'placeholder' => trans('tender.email'), 'type' => 'email']) }}
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-12">
               <div class='form-group control-group'>
-                {{ Form::text('phone', null, ['class' => 'form-control control-group', 'placeholder' => 'Telefonszám', 'type' => 'text']) }}
+                {{ Form::text('phone', null, ['class' => 'form-control control-group', 'placeholder' => trans('tender.phone'), 'type' => 'text']) }}
               </div>
             </div>
           </div>
           <div class='row'>
             <div class='col-sm-12'>
               <div class='form-group control-group'>
-                {{ Form::textarea('message', null, ['class' => 'form-control control-group', 'placeholder' => 'Üzenet', 'type' => 'text']) }}
+                {{ Form::textarea('message', null, ['class' => 'form-control control-group', 'placeholder' => trans('contact.message'), 'type' => 'text']) }}
               </div>
             </div>
           </div>
           <div class='row'>
             <div class='col-sm-12'>
-              {{ Form::submit('Küldés', ['class' => 'btn btn-contrast btn-block form-contact-submit']) }}
+              {{ Form::submit(trans('tender.send'), ['class' => 'btn btn-contrast btn-block form-contact-submit']) }}
             </div>
           </div>
         </form>

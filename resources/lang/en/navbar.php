@@ -2,8 +2,8 @@
 return [
 	'home'	=> 'Home',
 	'about'	=> 'About us',
-	'products-services'	=> 'Products & Services',
-	'tender'			=> 'Tender',
+	'products-services'	=> 'Products &amp; Services',
+	'tender'			=> 'Request &amp; Inquiry',
 	'contact'			=> 'Contact',
 	'language'			=> 'Language',
 

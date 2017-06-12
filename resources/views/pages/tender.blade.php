@@ -24,8 +24,8 @@
     <div class='col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2'>
       <div class='page-header page-header-with-icon mt-70' style="margin-top: 70px;">
         <i class='fa fa-comments-o'></i>
-        <h2>Miben segíthetünk?</h2>
-        <small class="mt-30">Kollégáink a lehető leghamarabb telefonon vagy e-mailben felkeresik Önt. Amennyiben gyorsabban szeretne árajánlatot kapni hívjon minket telefonon!</small>
+        <h2>{{ trans('tender.title') }}</h2>
+        <small class="mt-30">{{ trans('tender.text') }}</small>
       </div>
       {{-- <form class='form form-validation form-contact' method='post'> --}}
       {!! Form::open(['route' => 'mail.tender', 'class' => 'form form-validation']) !!}
@@ -38,49 +38,49 @@
         <div class='row'>
           <div class='col-sm-6'>
             <div class='form-group control-group'>
-              {{ Form::text('name', null, ['class' => 'form-control control-group', 'placeholder' => 'Név', 'type' => 'text']) }}
+              {{ Form::text('name', null, ['class' => 'form-control control-group', 'placeholder' =>  trans('tender.name'), 'type' => 'text']) }}
             </div>
           </div>
           <div class='col-sm-6'>
             <div class='form-group control-group'>
-              {{ Form::text('phone', null, ['class' => 'form-control control-group', 'placeholder' => 'Telefonszám', 'type' => 'text']) }}
+              {{ Form::text('phone', null, ['class' => 'form-control control-group', 'placeholder' => trans('tender.phone'), 'type' => 'text']) }}
             </div>
           </div>
         </div>
          <div class='row'>
           <div class='col-sm-6'>
             <div class='form-group control-group'>
-              {{ Form::text('email', null, ['class' => 'form-control control-group', 'placeholder' => 'Email', 'type' => 'email']) }}
+              {{ Form::text('email', null, ['class' => 'form-control control-group', 'placeholder' => trans('tender.email'), 'type' => 'email']) }}
             </div>
           </div>
           <div class='col-sm-6'>
             <div class='form-group control-group'>
-              {{ Form::text('vehicle_type', null, ['class' => 'form-control control-group', 'placeholder' => 'Gépjármű típusa', 'type' => 'text']) }}
+              {{ Form::text('vehicle_type', null, ['class' => 'form-control control-group', 'placeholder' => trans('tender.type'), 'type' => 'text']) }}
             </div>
           </div>
         </div>
          <div class='row'>
          <div class='col-sm-6'>
             <div class='form-group control-group'>
-              {{ Form::text('chassis_number', null, ['class' => 'form-control control-group', 'placeholder' => 'Alvázszám', 'type' => 'text']) }}
+              {{ Form::text('chassis_number', null, ['class' => 'form-control control-group', 'placeholder' => trans('tender.vin-number'), 'type' => 'text']) }}
             </div>
           </div>
           <div class='col-sm-6'>
             <div class='form-group control-group'>
-              {{ Form::text('part', null, ['class' => 'form-control control-group', 'placeholder' => 'Keresett alkatrészek megnevezése', 'type' => 'text']) }}
+              {{ Form::text('part', null, ['class' => 'form-control control-group', 'placeholder' => trans('tender.parts'), 'type' => 'text']) }}
             </div>
           </div>
         </div>
         <div class='row'>
           <div class='col-sm-12'>
             <div class='form-group control-group'>
-              {{ Form::textarea('message', null, ['class' => 'form-control control-group', 'placeholder' => 'Megjegyzés', 'type' => 'text']) }}
+              {{ Form::textarea('message', null, ['class' => 'form-control control-group', 'placeholder' => trans('tender.note'), 'type' => 'text']) }}
             </div>
           </div>
         </div>
         <div class='row'>
           <div class='col-sm-12'>
-            {{ Form::submit('Küldés', ['class' => 'btn btn-contrast btn-block form-contact-submit']) }}
+            {{ Form::submit(trans('tender.send'), ['class' => 'btn btn-contrast btn-block form-contact-submit']) }}
           </div>
         </div>
       {!! Form::close() !!}
