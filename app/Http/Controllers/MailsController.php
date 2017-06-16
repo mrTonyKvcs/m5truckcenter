@@ -18,7 +18,7 @@ class MailsController extends Controller
      //        'message'   			=> 'required|min:10|max:1000'
      //    ]);
         \Mail::send('emails.tender', ['data' => $request], function ($m) use ($request) {
-            $m->to("attila.kovacs92@gmail.com")
+            $m->to(env('MAILGUN_TO'))
 	            ->subject('M5TruckCenter Weblap: Árajánlat')
 		        ->from($request->email, $request->name);
         });

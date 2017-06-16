@@ -59,7 +59,7 @@
                   </h2>
                 </div>
 	            <div class='row portfolio-boxes'>
-	              <div class='carousel carousel-default slide carousel-auto' id='carousel-related-work'>
+	              <div class='carousel carousel-default slide' id='carousel-related-work'>
 	                <div class='carousel-inner'>
 	                  <div class='item active'>
 	                    <div class='col-sm-3 portfolio-box'>
