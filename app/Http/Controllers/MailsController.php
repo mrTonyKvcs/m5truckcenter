@@ -32,7 +32,7 @@ class MailsController extends Controller
     public function sendMailToSupport(Request $request)
     {
         \Mail::send('emails.contact', ['data' => $request], function ($m) use ($request) {
-            $m->to("attila.kovacs92@gmail.com")
+            $m->to(env('MAILGUN_TO'))
                 ->subject('M5TruckCenter Weblap: Érdeklődés')
                 ->from($request->email, $request->name);
         });
