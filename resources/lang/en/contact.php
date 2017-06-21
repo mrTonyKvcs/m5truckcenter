@@ -6,6 +6,7 @@ return [
 	'shop'			=> 'Our shop, our central warehouse',
 	
 	//Contact info
+	'seat'			=> 'Company seat',
 	'address'		=> 'Address',
 	'telephone'		=> 'Telephone',
 	'hours'			=> 'Working hours',

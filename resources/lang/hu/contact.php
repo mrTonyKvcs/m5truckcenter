@@ -6,6 +6,7 @@ return [
 	'shop'			=> 'Üzletünk, központi raktárunk',
 
 	//Contact info
+	'seat'			=> 'Székhely',
 	'address'		=> 'Cím',
 	'telephone'		=> 'Telefonszám',
 	'hours'			=> 'Nyitvatartás',

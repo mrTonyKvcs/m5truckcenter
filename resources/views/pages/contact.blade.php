@@ -48,11 +48,11 @@
             <div class='icon-wrap icon-circle contrast-bg icon-md'>
               <i class='fa fa-map-marker text-white'></i>
             </div>
-            <h3>Address</h3>
+            <h3>{{ trans('contact.address') }}</h3>
             <ul class='list-unstyled'>
-              <li>Székhely:</li>
+              <li>{{ trans('contact.seat') }}:</li>
               <li>6000 Kecskemét, Görbe utca 9.</li>
-              <strong><li>Üzletünk, központi raktárunk:</li>
+              <strong><li>{{ trans('contact.shop') }}</li>
               <li>6000 Kecskemét, Felsőcsalános 65.</li></strong>
             </ul>
           </div>

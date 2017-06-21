@@ -1,7 +1,7 @@
 <?php
 return [
 	//slider
-	'first-title'	=> 'Alkatrészt szolgáltatunk-',
+	'first-title'	=> 'Alkatrészt szolgáltatunk',
 	'second-title'	=> 'Azonnal javítjuk',
 
 	////panels
