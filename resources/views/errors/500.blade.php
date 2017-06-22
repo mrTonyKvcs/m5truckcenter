@@ -33,17 +33,14 @@
         <div class='row'>
           <div class='col-sm-12'>
             <h1 class='code fadeInDown animated'>
-              <span>4</span>
+              <span>5</span>
               <span class='fa fa-question-circle'></span>
-              <span>4</span>
+              <span>0</span>
             </h1>
           </div>
         </div>
         <div class='row'>
           <div class='col-sm-12'>
-            <p class='message fadeInLeft animated'>
-              {!! trans('404.text') !!}
-            </p>
             <a class="btn btn-bordered btn-white btn-lg fadeInRight animated" href="{{ route('pages.index') }}">{{ trans('404.button') }}</a>
           </div>
         </div>
