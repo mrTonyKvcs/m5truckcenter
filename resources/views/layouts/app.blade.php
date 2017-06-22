@@ -14,8 +14,8 @@
     {{-- Styles --}}
     
     <meta content='blog, business, clean, multipurpose template, twitter bootstrap 3, responsive' name='keywords'>
-    <meta content='Jednotka is multipurpose Twitter Bootstrap 3 template which is suitable for any type of business or online project. ' name='description'>
-    <meta content='BublinaStudio.com' name='author'>
+    <meta content='M5 Truck Center alkatrész kereskedelem, 0-24 kamion szervíz' name='description'>
+    <meta content='M5 Truck Center m5truckcenter.hu' name='author'>
     <meta content='all' name='robots'>
     
     <!--[if IE]> <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'> <![endif]-->
