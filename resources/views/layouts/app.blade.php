@@ -13,10 +13,15 @@
 
     {{-- Styles --}}
     
-    <meta content='blog, business, clean, multipurpose template, twitter bootstrap 3, responsive' name='keywords'>
-    <meta content='M5 Truck Center alkatrész kereskedelem, 0-24 kamion szervíz' name='description'>
-    <meta content='M5 Truck Center m5truckcenter.hu' name='author'>
-    <meta content='all' name='robots'>
+    <meta name='description' content='M5 Truck Center alkatrész kereskedelem, 0-24 kamion szervíz'>
+    <meta name="keywords" content="kamion alkatrész, alkatrész kereskedelem, pótkocsi alkatrész, kamion szervíz, 0-24 kamion mentés és szervíz">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 Months">
+    <meta name="author" content="M5 Truck Center">
+    <meta name="copyright" content="M5 Truck Center">
+    <meta name="distribution" content="global">
+    <meta name="language" content="HU">
+    <meta name="language" content="EN">
     
     <!--[if IE]> <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'> <![endif]-->
     <link href='/assets/images/m5_logo.png' rel='shortcut icon' type='image/x-icon'>
