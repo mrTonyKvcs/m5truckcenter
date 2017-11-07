@@ -25,7 +25,7 @@
                     <h1 class='big fadeInUp animated'>
                     M5 Truck Center
                     </h1>
-                    <p class='normal fadeInUp animated'>{{ trans('home.first-title') }}</p>
+                    <p class='normal fadeInUp animated'>{{ trans('home.second-title') }}</p>
                 </div>
             </div>
           </div>
