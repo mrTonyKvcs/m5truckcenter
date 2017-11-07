@@ -3,12 +3,16 @@
     <li class='item'>
       <div class='container'>
         <div class='row'>
-          <div class='col-lg-12 animate'>
-            <h1 class='big fadeInUp animated'>
-             M5 Truck Center
-            </h1>
-            <p class='normal fadeInUp animated'>{{ trans('home.first-title') }}</p>
-          </div>
+            <div class='col-lg-12 animate'>
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="title-bg">
+                        <h1 class='big fadeInUp animated'>
+                        M5 Truck Center
+                        </h1>
+                        <p class='normal fadeInUp animated'>{{ trans('home.first-title') }}</p>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
     </li>
@@ -16,10 +20,14 @@
       <div class='container'>
         <div class='row'>
           <div class='col-lg-12 animate'>
-            <h2 class='big fadeInLeftBig animated'>
-              M5 Truck Center
-            </h2>
-            <p class='normal fadeInRightBig animated'>{{ trans('home.second-title') }}</p>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="title-bg">
+                    <h1 class='big fadeInUp animated'>
+                    M5 Truck Center
+                    </h1>
+                    <p class='normal fadeInUp animated'>{{ trans('home.first-title') }}</p>
+                </div>
+            </div>
           </div>
         </div>
       </div>
