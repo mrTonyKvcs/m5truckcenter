@@ -63,6 +63,7 @@
             <h3>{{ trans('contact.telephone') }}</h3>
             <ul class='list-unstyled'>
               <li><a href="tel:+36308504403">+36308504403</a></li>
+              <li><a href="tel:+36304349215">+36304349215</a></li>
             </ul>
           </div>
           <div class='col-sm-3'>

@@ -7,7 +7,7 @@ return [
 	'manager'				=> 'Manager',
 	'manager-name'			=> 'Milán Ugrik',
 	'manager-text'			=> 'Selling, quoting, purchasing, technical assistance, import, export',
-	'service-manager'		=> 'Service manager',
-	'service-manager-name'	=> 'Attila Sebők',
-	'service-manager-text'	=> 'Service manager, technical rescue and repair, parts delivery',
+	'service-manager'		=> 'Sales manager',
+	'service-manager-name'	=> 'Tamás Rácz',
+	'service-manager-text'	=> 'Selling, quoting, purchasing, technical assistance',
 ];
