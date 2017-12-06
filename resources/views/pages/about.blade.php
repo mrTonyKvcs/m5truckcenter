@@ -79,6 +79,7 @@
                 </div>
             </div>
         </div>
+        @include('partials.clients')
     </div>
     <div class='fade' id='scroll-to-top'>
         <i class='fa fa-chevron-up'></i>

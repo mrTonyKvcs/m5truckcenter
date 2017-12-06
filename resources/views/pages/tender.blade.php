@@ -86,5 +86,6 @@
       {!! Form::close() !!}
     </div>
   </div>
+    @include('partials.clients')
 </div>
 @stop

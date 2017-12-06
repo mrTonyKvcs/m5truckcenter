@@ -151,5 +151,6 @@
 	      </div>
 	    </div>
 	</div>
+	 @include('partials.clients')
 </div>
 @stop
