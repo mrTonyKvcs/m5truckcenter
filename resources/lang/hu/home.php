@@ -8,9 +8,9 @@ return [
 	'first-panel'		=> 'Alkatrész kereskedelem',
 	'first-panel-text'	=> 'Fő profilunk a kamion és pótkocsi alkatrész kis és nagykereskedelem. Több éves szakmai tudás, képzettség áll munkatársaink...',
 	'second-panel'		=> '0-24 Kamion szerviz',
-	'second-panel-text'	=> 'Magas szakképzettséggel és tapasztalattal rendelkező szerelő kollégáink a nap 24 órájában azonnali rendelkezésre állnak...',
+	'second-panel-text'	=> 'Vállakozásunk 2017 év elején indult Kecskeméten. Fő profilunk a kamion és pótkocsi alkatrész kis és nagykereskedelem...',
 	'third-panel'		=> 'Ajánlatkérés',
-	'third-panel-text'	=> 'Kollégáink a lehető leghamarabb telefonon vagy e-mailben felkeresik Önt. Amennyiben gyorsabban szeretne...',
+	'third-panel-text'	=> 'Mi büszkék vagyunk Partnereinkre, ha elégedett velünk legyen Ön is az! Célunk az, hogy Ügyfeleinknek az alkatrész beszerzé...',
 
 	//services
 	'services'	=> 'Szolgáltatásaink',

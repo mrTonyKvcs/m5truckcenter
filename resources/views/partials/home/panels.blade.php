@@ -13,26 +13,26 @@
       </a>
     </div>
     <div class='col-sm-4 panel-item'>
-      <a class='panel panel-image' href='{{ route('pages.products') }}'>
+      <a class='panel panel-image' href='{{ route('pages.sale') }}'>
         <div class='panel-icon'>
-          <i class='fa fa-wrench icon'></i>
+          <i class='fa fa-comments icon'></i>
         </div>
-        <div class='panel-heading'><img class="img-responsive-sm" alt="M5 Truck Ceter 0-24 kamion szervíz" width="768" height="300" src="/images/bg-szerviz.png" /></div>
+        <div class='panel-heading'><img class="img-responsive-sm" alt="M5 Truck Ceter" width="768" height="300" src="/images/sale.png" /></div>
         <div class='panel-body'>
-          <h3 class='panel-title'>{{ trans('home.second-panel') }}</h3>
-          <p>{{ trans('home.second-panel-text') }}</p>
+          <h3 class='panel-title'>{{ trans('navbar.sale') }}</h3>
+          <p>{{ trans('home.third-panel-text') }}</p>
         </div>
       </a>
     </div>
     <div class='col-sm-4 panel-item'>
-      <a class='panel panel-image' href='{{ route('pages.tender') }}'>
+      <a class='panel panel-image' href='{{ route('pages.contact') }}'>
         <div class='panel-icon'>
-          <i class='fa fa-comments icon'></i>
+          <i class='fa fa-phone icon'></i>
         </div>
-        <div class='panel-heading'><img class="img-responsive-sm" alt="M5 Truck Ceter" width="768" height="300" src="/images/bg-atiras.png" /></div>
+        <div class='panel-heading'><img class="img-responsive-sm" alt="M5 Truck Ceter 0-24 kamion szervíz" width="768" height="300" src="/images/bg-szerviz.png" /></div>
         <div class='panel-body'>
-          <h3 class='panel-title'>{{ trans('home.third-panel') }}</h3>
-          <p>{{ trans('home.third-panel-text') }}</p>
+          <h3 class='panel-title'>{{ trans('navbar.contact') }}</h3>
+          <p>{{ trans('home.second-panel-text') }}</p>
         </div>
       </a>
     </div>

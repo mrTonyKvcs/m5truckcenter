@@ -8,9 +8,9 @@ return [
 	'first-panel'		=> 'Parts trade',
 	'first-panel-text'	=> 'From Kecskemét, our central base at the western outskirts of the M5 motorway, we provide our customers...',
 	'second-panel'		=> '0-24 Truck assistance',
-	'second-panel-text'	=> 'You do not have to doubt if your work equipment can not continue your cargo operation due to technical failure.',
+	'second-panel-text'	=> 'Our business started in Kecskemét – at the center territory of Hungary at the beginning of year 2017... ',
 	'third-panel'		=> 'Request &amp; Inquiry',
-	'third-panel-text'	=> 'Our colleagues will contact you as soon as possible by phone or email. If you would like to get quicker quotation...',
+	'third-panel-text'	=> 'Mi büszkék vagyunk Partnereinkre, ha elégedett velünk legyen Ön is az! Célunk az, hogy Ügyfeleinknek az alkatrész beszerzé...',
 
 	//services
 	'services'	=> 'Services',

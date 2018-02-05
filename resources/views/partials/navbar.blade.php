@@ -34,10 +34,10 @@
             </span>
           </a>
         </li>
-        <li class="{{ active_menu(Route::currentRouteName(), 'pages.tender') }}">
-          <a href="{{ route('pages.tender') }}">
+        <li class="{{ active_menu(Route::currentRouteName(), 'pages.sale') }}">
+          <a href="{{ route('pages.sale') }}">
             <span>
-              {{ trans('navbar.tender') }}
+              {{ trans('navbar.sale') }}
             </span>
           </a>
         </li>

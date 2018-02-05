@@ -3,10 +3,10 @@
             <div class='page-header page-header-with-icon'>
               <i class='fa fa-cloud'></i>
               <h2>
-                {{ trans('home.services') }}
+                {{--{{ trans('home.services') }}--}}
               </h2>
             </div>
-            <div class='icon-boxes icon-boxes-lg'>
+            <div class='icon-boxes icon-boxes-lg' style="padding-top: 25px;">
               <div class='row'>
                 <div class='col-sm-6 icon-box'>
                   <div class='icon icon-wrap icon-circle icon-lg contrast-bg'>

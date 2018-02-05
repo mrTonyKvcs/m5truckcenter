@@ -4,7 +4,8 @@ return [
 	'about'	=> 'About us',
 	'products-services'	=> 'Products &amp; Services',
 	'tender'			=> 'Request &amp; Inquiry',
-	'contact'			=> 'Contact',
+    'sale'              => 'On sale',
+    'contact'			=> 'Contact',
 	'language'			=> 'Language',
 
 	//Footer
