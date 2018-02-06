@@ -6497,7 +6497,6 @@ max-width: 1030px; } }
 max-width: 1230px; } }
 
 #wrapper {
-    background: #000;
     background-repeat: no-repeat;
     background-position: center 0;
 background-image: url("../../images/slider.jpg"); }

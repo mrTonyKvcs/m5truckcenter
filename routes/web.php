@@ -11,7 +11,10 @@ Route::group(
 	Route::get(LaravelLocalization::transRoute('routes.about'), ['as'	=>	'pages.about', 'uses'	=> 'PagesController@about']);
 	Route::get(LaravelLocalization::transRoute('routes.products'), ['as'	=>	'pages.products', 'uses'	=> 'PagesController@products']);
 	//Route::get(LaravelLocalization::transRoute('routes.tender'), ['as'	=>	'pages.tender', 'uses'	=> 'PagesController@tender']);
-	Route::get(LaravelLocalization::transRoute('routes.sale'), ['as'	=>	'pages.sale', 'uses'	=> 'PagesController@sale']);
+
+    Route::get(LaravelLocalization::transRoute('routes.sale'), ['as'	=>	'pages.sale', 'uses'	=> 'PagesController@sale']);
+    Route::post('felirakozas', ['as'	=>	'pages.sale-subscribe', 'uses'	=> 'PagesController@saleSubscribe']);
+    
 	Route::get(LaravelLocalization::transRoute('routes.contact'), ['as'	=>	'pages.contact', 'uses'	=> 'PagesController@contact']);
 	//Mail
 	Route::post(LaravelLocalization::transRoute('routes.tender'), ['as'	=> 'mail.tender', 'uses' => 'MailsController@sendTenderToSupport']);
