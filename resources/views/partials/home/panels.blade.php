@@ -13,7 +13,7 @@
       </a>
     </div>
     <div class='col-sm-4 panel-item'>
-      <a class='panel panel-image' href='{{ route('pages.sale') }}'>
+      <a class='panel panel-image' href='{{ route('sales.index') }}'>
         <div class='panel-icon'>
           <i class='fa fa-comments icon'></i>
         </div>

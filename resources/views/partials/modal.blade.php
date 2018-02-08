@@ -6,18 +6,18 @@
                 <h3 class="modal-title" id="myModalLabel">Feliratkozás az akcióra</h3>
             </div>
             <div class="modal-body">
-                <form method="POST" action="{{ route('pages.sale-subscribe') }}" class="form-horizontal">
+                <form method="POST" action="{{ route('sales.store') }}" class="form-horizontal">
                     {{ csrf_field() }}
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputPassword3" class="col-sm-2 control-label">{{ trans('tender.phone') }}</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputPassword3" placeholder="{{ trans('tender.phone') }}" required>
+                            <input type="text" class="form-control" id="inputPassword3" placeholder="{{ trans('tender.phone') }}" name="phone" required>
                         </div>
                     </div>    
                     <div class="modal-footer">

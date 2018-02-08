@@ -35,7 +35,7 @@
           </a>
         </li>
         <li class="{{ active_menu(Route::currentRouteName(), 'pages.sale') }}">
-          <a href="{{ route('pages.sale') }}">
+          <a href="{{ route('sales.index') }}">
             <span>
               {{ trans('navbar.sale') }}
             </span>

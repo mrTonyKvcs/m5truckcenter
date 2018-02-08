@@ -22,6 +22,15 @@
     <div id='main-content' style="padding-top: 0;">
         <div class="container">
             <div class="row">
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
                 <div class="col-sm-12">
                     <div class='page-header page-header-with-icon'>
                         <i class='fa fa-bolt'></i>

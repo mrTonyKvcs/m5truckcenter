@@ -26,16 +26,6 @@ class PagesController extends Controller
         return view('pages.tender');
     }
 
-    public function sale()
-    {
-        return view('pages.sale');
-    }
-
-    public function saleSubscribe()
-    {
-        return back();
-    }
-
     public function contact()
     {
     	return view('pages.contact');

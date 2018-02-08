@@ -10,7 +10,7 @@
       <div class='col-md-3 col-sm-6 info-box'>
         <h2 class='title'>{{ trans('navbar.sitemap') }}</h2>
         <p><a href="{{ route('pages.products') }}">{{ trans('navbar.products-services') }}</a></p>
-        <p><a href="{{ route('pages.sale') }}">{{ trans('navbar.sale') }}</a></p>
+        <p><a href="{{ route('sales.index') }}">{{ trans('navbar.sale') }}</a></p>
         <p><a href="{{ route('pages.contact') }}">{{ trans('navbar.contact') }}</a></p>
       </div>
       <div class='col-md-3 col-sm-6 info-box'>
