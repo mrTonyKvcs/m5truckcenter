@@ -81,6 +81,7 @@
           2017 M5 Truck Center
         </p>
         <div class='links'>
+            <a href="/pdfs/adatkezelési_tájékoztató.pdf" target="_blank">Adatkezelési tájékoztató</a>
           <a class='btn btn-circle btn-medium-light btn-sm' href='https://www.facebook.com/m5truckcenter/' target="_blank">
             <i class='fa fa-facebook text-dark'></i>
           </a>
