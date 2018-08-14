@@ -1,4 +1,5 @@
 <?php
+Route::get('sitemap.xml', 'SitemapsController@index');
 //Pages
 Route::group(
 	[
