@@ -1,8 +1,13 @@
+.panel {
+    background: darken(#fff, 2%);
+}
+
 .panel.panel-image .panel-heading {
     max-height: 200px;
 }
 
 .panel.panel-image .panel-body {
+    font-size: 18px;
     min-height: 305px;
 }
 

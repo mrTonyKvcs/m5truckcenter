@@ -9,7 +9,7 @@
         <div class='panel-heading'><img class="img-responsive-sm" alt="M5 Truck Ceter Alkatrész kereskedelem" width="768" height="300" src="/images/bg-szerviz.png" /></div>
         <div class='panel-body'>
             <h3 class='panel-title'>{{ trans('home.first-panel') }}</h3> <br>
-            <p>{!! trans('home.first-panel-text') !!}</p>
+            <p class="panel-text">{!! trans('home.first-panel-text') !!}</p>
             <button class="panel__button">Részletek</button>
         </div>
       </a>
