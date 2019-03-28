@@ -9,11 +9,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {{-- CSRF Token --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>M5 Truck Center</title>
+        <title>@hasSection('title') @yield('title') @else M5 Truck Center  @endif</title>
 
         {{-- Styles --}}
-
-        <meta name='description' content='M5 Truck Center alkatrész kereskedelem, 0-24 kamion szervíz'>
+        @hasSection('description')
+            @yield('description')
+        @else
+            <meta name='description' content='@M5 Truck Center alkatrész kereskedelem, 0-24 kamion szervíz'>
+        @endif
         <meta name="keywords" content="kamion alkatrész, alkatrész kereskedelem, pótkocsi alkatrész, kamion szervíz, 0-24 kamion mentés és szervíz">
         <meta name="robots" content="index, follow">
         <meta name="revisit-after" content="1 Months">

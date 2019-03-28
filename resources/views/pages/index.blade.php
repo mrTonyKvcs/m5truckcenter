@@ -23,8 +23,19 @@
 {{--<p>(Halaszthatatlan ügyben ügyeleti telefonszám:--}}
 {{--+36304349215 – Túri Márk)</p>--}}
         {{--</div>--}}
+    <div class='page-header page-header-with-icon'>
+        <i class='fa fa-cloud'></i>
+        <h2>
+            Szolgáltatásaink
+        </h2>
+    </div>
     @include('partials.home.panels')
     @include('partials.home.services')
+    <div class="row" style="margin-top: 70px;">
+        <div class="col-md-6 col-md-offset-3 text-center">
+            <a href="{{ route('pages.contact') }}" class="btn btn-contrast btn-block form-contact-submit">Elérhetőségeink / Ajánlatkérés</a>
+        </div>
+    </div>
     @include('partials.clients')
   </div>
 </div>

@@ -10,11 +10,13 @@ Route::group(
 {
 	Route::get('/', ['as'	=>	'pages.index', 'uses'	=> 'PagesController@home']);
 	Route::get(LaravelLocalization::transRoute('routes.about'), ['as'	=>	'pages.about', 'uses'	=> 'PagesController@about']);
-	Route::get(LaravelLocalization::transRoute('routes.products'), ['as'	=>	'pages.products', 'uses'	=> 'PagesController@products']);
+	Route::get(LaravelLocalization::transRoute('routes.garage'), ['as'	=>	'pages.garage', 'uses'	=> 'PagesController@garage']);
+	Route::get(LaravelLocalization::transRoute('routes.commerce'), ['as'	=>	'pages.commerce', 'uses'	=> 'PagesController@commerce']);
+	//Route::get(LaravelLocalization::transRoute('routes.products'), ['as'	=>	'pages.products', 'uses'	=> 'PagesController@products']);
 	//Route::get(LaravelLocalization::transRoute('routes.tender'), ['as'	=>	'pages.tender', 'uses'	=> 'PagesController@tender']);
 
-    Route::get(LaravelLocalization::transRoute('routes.sale'), ['as'	=>	'sales.index', 'uses'	=> 'SalesController@index']);
-    Route::post('felirakozas', ['as'	=>	'sales.store', 'uses'	=> 'SalesController@store']);
+    //Route::get(LaravelLocalization::transRoute('routes.sale'), ['as'	=>	'sales.index', 'uses'	=> 'SalesController@index']);
+    //Route::post('felirakozas', ['as'	=>	'sales.store', 'uses'	=> 'SalesController@store']);
     
 	Route::get(LaravelLocalization::transRoute('routes.contact'), ['as'	=>	'pages.contact', 'uses'	=> 'PagesController@contact']);
 	//Mail

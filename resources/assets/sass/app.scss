@@ -1,3 +1,10 @@
+@import "_mixins";
+@import "utilities/_color";
+
+@import "components/_header";
+@import "components/_panels";
+@import "components/_services";
+
 .mt-70 {
   margin-top: 70px;
 }
@@ -8,6 +15,10 @@
 
 .mb-25 {
   margin-bottom: 25px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 #wrapper {

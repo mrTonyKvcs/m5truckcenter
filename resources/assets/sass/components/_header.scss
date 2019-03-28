@@ -1,0 +1,33 @@
+.c-header {
+    color: #fff;
+    text-align: center;
+
+    @include has(content) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 100px;
+        min-height: 200px;
+    }
+
+    @include has(text) {
+        font-size: 2rem;
+    }
+
+    @include has(comment) {
+        font-size: 1.8rem;
+    }
+
+    @include has(subtitle) {
+        color: #fff;
+        font-weight: 300;
+    }
+
+    @include has(phone) {
+        font-size: 18px;
+    }
+
+    @include has(button) {
+        width: 285px;
+    }
+}

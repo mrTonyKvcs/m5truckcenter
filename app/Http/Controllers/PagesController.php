@@ -16,9 +16,14 @@ class PagesController extends Controller
     	return view('pages.about');
     }
 
-    public function products()
+    public function garage()
     {
-        return view('pages.products');
+        return view('pages.garage');
+    }
+
+    public function commerce()
+    {
+        return view('pages.commerce');
     }
 
     public function tender()

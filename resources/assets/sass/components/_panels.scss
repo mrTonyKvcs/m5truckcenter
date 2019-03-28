@@ -1,0 +1,19 @@
+.panel.panel-image .panel-heading {
+    max-height: 200px;
+}
+
+.panel.panel-image .panel-body {
+    min-height: 305px;
+}
+
+.panel__button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: lighten(#d10a11, 20%)
+    }
+}

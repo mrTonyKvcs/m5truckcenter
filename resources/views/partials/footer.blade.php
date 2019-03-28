@@ -9,8 +9,8 @@
       </div>
       <div class='col-md-3 col-sm-6 info-box'>
         <h2 class='title'>{{ trans('navbar.sitemap') }}</h2>
-        <p><a href="{{ route('pages.products') }}">{{ trans('navbar.products-services') }}</a></p>
-        <p><a href="{{ route('sales.index') }}">{{ trans('navbar.sale') }}</a></p>
+        <p><a href="{{ route('pages.garage') }}">{{ trans('navbar.garage') }}</a></p>
+        <p><a href="{{ route('pages.commerce') }}">{{ trans('navbar.commerce') }}</a></p>
         <p><a href="{{ route('pages.contact') }}">{{ trans('navbar.contact') }}</a></p>
       </div>
       <div class='col-md-3 col-sm-6 info-box'>

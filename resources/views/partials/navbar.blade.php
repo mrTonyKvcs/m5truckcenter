@@ -27,17 +27,17 @@
             </span>
           </a>
         </li>
-        <li class="{{ active_menu(Route::currentRouteName(), 'pages.products') }}">
-          <a href="{{ route('pages.products') }}">
+        <li class="{{ active_menu(Route::currentRouteName(), 'pages.garage') }}">
+          <a href="{{ route('pages.garage') }}">
             <span>
-              {{ trans('navbar.products-services') }}
+              {{ trans('navbar.garage') }}
             </span>
           </a>
         </li>
-        <li class="{{ active_menu(Route::currentRouteName(), 'pages.sale') }}">
-          <a href="{{ route('sales.index') }}">
+        <li class="{{ active_menu(Route::currentRouteName(), 'pages.commerce') }}">
+          <a href="{{ route('pages.commerce') }}">
             <span>
-              {{ trans('navbar.sale') }}
+              {{ trans('navbar.commerce') }}
             </span>
           </a>
         </li>

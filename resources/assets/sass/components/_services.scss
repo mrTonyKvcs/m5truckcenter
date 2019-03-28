@@ -1,0 +1,15 @@
+.c-services {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @include has(item) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
