@@ -30,6 +30,12 @@
         </h2>
     </div>
     @include('partials.home.panels')
+    <div class='page-header page-header-with-icon'>
+        <i class='fa fa-users'></i>
+        <h2>
+            6 verhetetlen érv az M5 Truck Center kamion és pótkocsi szerviz, alkatrész kis- és nagykereskedelem mellett
+        </h2>
+    </div>
     @include('partials.home.services')
     <div class="row" style="margin-top: 70px;">
         <div class="col-md-6 col-md-offset-3 text-center">

@@ -8,7 +8,8 @@
                         <p class="c-header c-header__text" style="margin-bottom: 20px;">Rövid időn belül, az út mellett megjavítjuk!</p>
                         <p class="c-header c-header__text">Hívjon a <a href="tel:+36308504403">+36308504403</a>-as számon!</p>
                     </div>
-                    <p class="c-header c-header__comment">M5 Truck Center kamion és pótkocsi szerviz, alkatrész kis- és nagykereskedelem.</p>
+                    <p class="c-header c-header__comment" style="margin: 20px 0;">M5 Truck Center kamion és pótkocsi szerviz, alkatrész kis- és nagykereskedelem.</p>
+                    <a href="{{ route('pages.contact') }}" class="btn btn-contrast form-contact-submit text-center c-header__button">Ajánlatkérés</a>
                 </div>
             </div>
         </div>

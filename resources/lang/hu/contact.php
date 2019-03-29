@@ -2,7 +2,7 @@
 return [
 	'title'			=> 'Elérhetőségek',
 	'contact-info'	=> 'Elérhetőségeink',
-	'contact-form'	=> 'Üzenet küldés',
+	'contact-form'	=> 'ÜZENET KÜLDÉS / AJÁNLATKÉRÉS',
 	'shop'			=> 'Üzletünk, központi raktárunk',
 
 	//Contact info
