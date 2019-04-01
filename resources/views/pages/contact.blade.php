@@ -1,21 +1,18 @@
 @extends('layouts.app')
 @section('content')
-<div id='main-content-header'>
+<div id='main-content-header' class="bg-contact">
   <div class='container'>
     <div class='row'>
-      <div class='col-sm-12'>
-        <h1 class='title'>
-          {{ trans('contact.title') }}
-        </h1>
-        <ol class='breadcrumb'>
-          <li>
-            <a href='{{ route('pages.index') }}'>
-              <i class='fa fa-home'></i>
-            </a>
-          </li>
-          <li class='active'>{{ trans('contact.title') }}</li>
-        </ol>
-      </div>
+        <div class='col-xs-12 col-md-8 col-md-offset-2'>
+            <div class="c-header c-header__content c-header__content--subpage" style="padding: 25px;">
+                <h1 class='title'>
+                    {{ trans('contact.title') }}
+                </h1>
+                <h3 class="c-header__subtitle">Részletes javítási díjakért, egyénileg személyre szabott árajánlatért keresse értékesítő kollégánkat!</h3>
+                <a href="tel:+36308504403" class="c-header__phone" style="margin-bottom: 20px;">+36308504403</a>
+                <a href="#message" class="btn btn-contrast form-contact-submit text-center c-header__button">Ajánlatkérés</a>
+            </div>
+        </div>
     </div>
   </div>
 </div>
@@ -98,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class='row'>
+    <div class='row' id="message">
       <div class='col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2'>
         <div class='page-header page-header-with-icon'>
           <i class='fa fa-envelope'></i>

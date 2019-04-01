@@ -1,7 +1,7 @@
 <div class='hero-carousel carousel-blur carousel-blur-arrows carousel-blur-pagination flexslider' id='carousel-example-1'>
     <div class='container'>
         <div class='row'>
-            <div class='col-lg-8 col-lg-offset-2 animate' style="padding: 75px 5px;">
+            <div class='col-lg-10 col-lg-offset-1 animate' style="padding: 75px 5px;">
                 <div class="c-header c-header__content">
                     <h1 class="c-header c-header__title">Non-stop Kamion és pótkocsi szerviz, azonnali indulással</h1>
                     <div>

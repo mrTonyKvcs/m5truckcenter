@@ -39,7 +39,7 @@
         <![endif]-->
     </head>
     <body class='homepage'>
-        <div id='wrapper'>
+        {{--<div id='wrapper'>--}}
             <header id='header'>
                 @include('partials.navbar')
             </header>
@@ -49,7 +49,7 @@
             <footer id='footer'>
                 @include('partials.footer')
             </footer>
-        </div>
+        {{--</div>--}}
         {{-- / required javascripts --}}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123893088-1"></script>

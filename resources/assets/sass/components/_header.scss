@@ -7,11 +7,19 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-top: 55px;
+        margin-top: 80px;
         min-height: 200px;
+        padding-bottom: 20px;
+        background: rgba(25, 25, 25, 0.8);
+        border-radius: 5px;
+
+        @include m(subpage) {
+            margin-top: 0px;
+            padding-top: 25px;
+        }
 
         @media (max-width: 767px) {
-            margin-top: 7px;
+            margin-top: 30px;
         }
     }
 
@@ -46,3 +54,46 @@
         width: 285px;
     }
 }
+
+.hero-carousel {
+    background-image: url('/images/slider.png');
+    background-position: center;
+    min-height: 580px;
+}
+
+#header {
+    background: rgba(25, 25, 25, 0.8);
+}
+
+#header .navbar-default.navbar-collapsed-sm {
+    border: none;
+}
+
+.bg-about {
+    display: flex;
+    align-items: center;
+    background-image: url('images/bg-about.png');
+    min-height: 350px;
+    background-position: center;
+}
+
+.bg-contact {
+    display: flex;
+    align-items: center;
+    background-image: url('images/2019-contact.png');
+    min-height: 350px;
+    background-position: center;
+}
+
+.bg-commerce {
+    background-image: url('images/commerce.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-garage {
+    background-image: url('images/truck-garage.png');
+    background-position: right;
+}
+

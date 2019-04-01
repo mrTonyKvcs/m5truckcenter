@@ -7,16 +7,18 @@
 @endsection
 
 @section('content')
-<div id='main-content-header'>
+<div id='main-content-header' class="bg-garage">
   <div class='container'>
     <div class='row'>
       <div class='col-sm-12'>
-        <h1 class='title'>
-          {{ trans('navbar.garage') }}
-        </h1>
-        <h3 class="c-header__subtitle">Non-stop kamion és pótkocsi szervizszolgáltatásunkhoz hívja az alábbi számot vagy kérjen ajánlatot!</h3>
-        <a href="tel:+36308504403" class="c-header__phone">+36308504403</a><br><br>
-        <a href="{{ route('pages.contact') }}" class="btn btn-contrast form-contact-submit text-center c-header__button">Ajánlatkérés</a>
+          <div class="c-header c-header__content c-header__content--subpage">
+              <h1 class='title'>
+                  {{ trans('navbar.garage') }}
+              </h1>
+              <h3 class="c-header__subtitle">Non-stop kamion és pótkocsi szervizszolgáltatásunkhoz hívja az alábbi számot vagy kérjen ajánlatot!</h3>
+              <a href="tel:+36308504403" class="c-header__phone">+36308504403</a><br><br>
+              <a href="{{ route('pages.contact') }}" class="btn btn-contrast form-contact-submit text-center c-header__button">Ajánlatkérés</a>
+          </div>
       </div>
     </div>
   </div>
