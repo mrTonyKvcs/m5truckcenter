@@ -2,7 +2,7 @@
 <div class='panels-wrapper'>
   <div class='row panels' style="margin-top:20px;">
     <div class='col-sm-6 panel-item'>
-      <a class='panel panel-image' href='{{ route('pages.commerce') }}'>
+      <a class='panel panel-image' href='{{ route('pages.garage') }}'>
         <div class='panel-icon'>
           <i class='fa fa-wrench icon'></i>
         </div>
@@ -15,7 +15,7 @@
       </a>
     </div>
     <div class='col-sm-6 panel-item'>
-      <a class='panel panel-image' href='{{ route('pages.garage') }}'>
+      <a class='panel panel-image' href='{{ route('pages.commerce') }}'>
         <div class='panel-icon'>
           <i class='fa fa-shopping-cart icon'></i>
         </div>

@@ -18,6 +18,10 @@
             padding-top: 25px;
         }
 
+        @include m(light) {
+            background: rgba(25, 25, 25, 0.4);
+        }
+
         @media (max-width: 767px) {
             margin-top: 30px;
         }
@@ -47,7 +51,9 @@
     }
 
     @include has(phone) {
+        color: lighten(#d10a11, 10%);
         font-size: 21px;
+        font-weight: 600;
     }
 
     @include has(button) {

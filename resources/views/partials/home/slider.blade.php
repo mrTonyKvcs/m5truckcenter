@@ -2,7 +2,7 @@
     <div class='container'>
         <div class='row'>
             <div class='col-lg-10 col-lg-offset-1 animate' style="padding: 75px 5px;">
-                <div class="c-header c-header__content">
+                <div class="c-header c-header__content c-header__content--light">
                     <h1 class="c-header c-header__title">Non-stop Kamion és pótkocsi szerviz, azonnali indulással</h1>
                     <div>
                         <p class="c-header c-header__text" style="margin-bottom: 20px;">Rövid időn belül, az út mellett megjavítjuk!</p>

@@ -16,7 +16,7 @@
                   {{ trans('navbar.garage') }}
               </h1>
               <h3 class="c-header__subtitle">Non-stop kamion és pótkocsi szervizszolgáltatásunkhoz hívja az alábbi számot vagy kérjen ajánlatot!</h3>
-              <a href="tel:+36308504403" class="c-header__phone">+36308504403</a><br><br>
+              <a href="tel:+36308504403" class="c-header__phone">+36308504403</a><br>
               <a href="{{ route('pages.contact') }}" class="btn btn-contrast form-contact-submit text-center c-header__button">Ajánlatkérés</a>
           </div>
       </div>
