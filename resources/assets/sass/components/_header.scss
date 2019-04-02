@@ -54,6 +54,7 @@
         color: #fff;
         font-size: 21px;
         font-weight: 600;
+        text-decoration: underline;
     }
 
     @include has(button) {
