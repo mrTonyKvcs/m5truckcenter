@@ -51,7 +51,7 @@
     }
 
     @include has(phone) {
-        color: lighten(#d10a11, 10%);
+        color: #fff;
         font-size: 21px;
         font-weight: 600;
     }
