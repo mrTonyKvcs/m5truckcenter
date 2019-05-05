@@ -75,7 +75,7 @@
         </div>
         <div class="row" style="margin-top: 70px;">
             <div class="col-md-12 text-center">
-                <a href="{{ route('pages.contact') }}" class="btn btn-contrast btn-block form-contact-submit">Elérhetőségeink / Ajánlatkérés</a>
+                <a href="{{ route('pages.contact') }}" class="btn btn-contrast btn-block form-contact-submit">{{ trans('home.service-button') }}</a>
             </div>
         </div>
 	</div>
