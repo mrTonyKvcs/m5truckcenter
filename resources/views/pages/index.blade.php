@@ -26,20 +26,18 @@
     <div class='page-header page-header-with-icon'>
         <i class='fa fa-cloud'></i>
         <h2>
-            Szolgáltatásaink
+            {{ trans('home.services') }}
         </h2>
     </div>
     @include('partials.home.panels')
     <div class='page-header page-header-with-icon'>
         <i class='fa fa-users'></i>
-        <h2>
-            6 verhetetlen érv az M5 Truck Center kamion és pótkocsi szerviz, alkatrész kis- és nagykereskedelem mellett
-        </h2>
+        <h2>{{ trans('home.services-title') }}</h2>
     </div>
     @include('partials.home.services')
     <div class="row" style="margin-top: 70px;">
         <div class="col-md-6 col-md-offset-3 text-center">
-            <a href="{{ route('pages.contact') }}" class="btn btn-contrast btn-block form-contact-submit">Elérhetőségeink / Ajánlatkérés</a>
+            <a href="{{ route('pages.contact') }}" class="btn btn-contrast btn-block form-contact-submit">{{ trans('home.service-button') }}</a>
         </div>
     </div>
     @include('partials.clients')

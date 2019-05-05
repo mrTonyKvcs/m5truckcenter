@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {{-- CSRF Token --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>@hasSection('title') @yield('title') @else M5 Truck Center  @endif</title>
+        <title>@hasSection('title') @yield('title') @else 0-24 KAMION SZERVIZ ÉS ALKATRÉSZ- M5 TRUCK CENTER @endif</title>
 
         {{-- Styles --}}
         @hasSection('description')

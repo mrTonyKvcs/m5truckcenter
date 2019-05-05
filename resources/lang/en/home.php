@@ -1,35 +1,55 @@
 <?php
 return [
 	//slider
+    'title' => 'Non-stop truckand trailer service, immediate starting',
+    'subtitle' => 'We make immediate maintenance near the road!',
+    'call-text' => 'Please call on <a href="tel:+36308504403" class="c-header__phone">+36308504403</a> mobile number!',
+    'short-text' => '',
+    'button' => 'inquiry',
 	'first-title'	=> 'We serve parts',
 	'second-title'	=> 'We repair immediately',
 
 	//panels
-	'first-panel'		=> 'Parts trade',
-	'first-panel-text'	=> 'From Kecskemét, our central base at the western outskirts of the M5 motorway, we provide our customers...',
-	'second-panel'		=> '0-24 Truck assistance',
-	'second-panel-text'	=> 'Our business started in Kecskemét – at the center territory of Hungary at the beginning of year 2017... ',
+	'first-panel'		=> '0-24h TRUCK AND TRAILER SERVICE',
+	'first-panel-text'	=> 'Within 30-60 minutes, our service van can arrive with all spare parts and auxiliary material to repair the broken truck. Our expert truck and trailer mechanic team can solve all problems on the road! This saves you the time-wasting costs involved and the cost of towing and repair in a service!',
+	'second-panel'		=> 'Truck and trailer parts wholesale',
+	'second-panel-text'	=> 'During the day we provide the necessary truck or trailer parts immediately from the warehouse or within 3 hours from the outside warehouse. We will deliver your order after 2 hours the next morning to you or our courier.
+This way we can provide virtually any truck and trailer parts immediately.
+DETAILS-részletek',
 	'third-panel'		=> 'Request &amp; Inquiry',
 	'third-panel-text'	=> 'Mi büszkék vagyunk Partnereinkre, ha elégedett velünk legyen Ön is az! Célunk az, hogy Ügyfeleinknek az alkatrész beszerzé...',
 
 	//services
-	'services'	=> 'Services',
-	'delivery'	=> 'Delivery',
-	'support'	=> 'Technical support',
+	'services'	=> 'Our Services',
+	'delivery'	=> 'Transport',
+	'support'	=> 'Technical background',
 	'warranty'	=> 'Warranty',
 	'safety'	=> 'Safety',
+    'experience'=> 'Several years of truck service experience',
+    'service-car' => 'Well equipped Truck Service Van',
+    'service-button' => 'CONTACT/INQUIRY',
+
+    //six services
+    'services-title' => '6 MAIN REASONS TO CHOSE M5 TRUCK CENTER NONSTOP SERVICE AND PARTS TRADE',
+
+    //experience
+    'experience-text' => 'The expertise of our specialists specialized in the repair of trucks and trailers is a guarantee that they will be able to repair any errors.',
+
+    //service-var
+    'service-car-text' => 'Our truck service car is equipped with all the necessary tools and components to repair your vehicle right next to the road.',
 
 	//delivery
-	'delivery-text'	=> 'We are able to deal with all orders and inquiries from 0 to 24 hours a day. In case our dear customer has any question about our stock and parts availability feel free to call us. We are also able to deliver parts immediately from our main warehouse to anywhere in Hungary, even to neighbouring countries as well.',
+	'delivery-text'	=> '0-24 hours we are able to process the orders of our clients, the requests arriving by 5 PM can be delivered by our courier the next morning, if you need immediate delivery please contact our sales colleague!
+',
 
 	//support
-	'support-text'	=> 'For those dear customers of ours who are able to repair the new spare parts workmanlike, we are happy to help with any manufacturers instructions, technical drawings, service informartion. Our collegaues experience and preparedness is 100% from 0 to 24 a day.',
+	'support-text'	=> "For our Customers who want to install our parts professionally in their own service, they may require manufacturer's specifications, technical drawings, blasted figures, and the technical readiness of our colleagues can provide 100% immediate assistance.",
 
 	//warranty
-	'warranty-text'	=> 'Normally we give 12 months warranty for all our products, in case of any malfunction, we make the immediate investigation of the part in our main warehouse, and make the decision with the maximal favor for our dear customers.',
+	'warranty-text'	=> 'We provide 12 months warranty for our parts, and we will promptly investigate the problem in our central warehouse in case of a warranty problem and we will consider a potential problem for our Customers in the most favorable way.',
 
 	//safety
-	'safety-text'	=> 'We are clearly aware of the situation that one of the main factor in our parts is the price. The main factor for us is always to sell the most safe and best quality parts on the best possible price. We would like to help our customers with our parts, and want them to deal once with one problem for a long term.',
+	'safety-text'	=> 'We are aware that for most of our customers, the price of the components is the main determinant. As a key factor, we believe that the parts we sell will result in safe, long-term operation at the best possible price, and that we only have to deal with a problem once.',
 
 	'footer-text'	=> 'Our business started in Kecskemét – at the center territory of Hungary at the beginning of year 2017. Our main profile is the wholesale and retail trade of truck and trailer parts.'
 ];

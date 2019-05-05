@@ -1,10 +1,9 @@
 <?php
 return [
-	'home'	=> 'Home',
+	'home'	=> 'Main page',
 	'about'	=> 'About us',
-	'products-services'	=> 'Products &amp; Services',
-	'tender'			=> 'Request &amp; Inquiry',
-    'sale'              => 'On sale',
+    'garage'	=> 'Truck and trailer service',
+    'commerce' => 'Truck and trailer parts trade',
     'contact'			=> 'Contact',
 	'language'			=> 'Language',
 

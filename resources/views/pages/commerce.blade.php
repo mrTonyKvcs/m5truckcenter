@@ -14,9 +14,9 @@
               <h1 class='title'>
                   {{ trans('navbar.commerce') }}
               </h1>
-              <h3 class="c-header__subtitle">Kamion, illetve pótkocsi alkatrész a lehető legjobb áron! Hívja az alábbi számot vagy kérjen ajánlatot!</h3>
+              <h3 class="c-header__subtitle">{{ trans('commerce.subtitle') }}</h3>
               <a href="tel:+36308504403" class="c-header__phone">+36308504403</a><br>
-              <a href="{{ route('pages.contact') }}" class="btn btn-contrast form-contact-submit text-center c-header__button">Ajánlatkérés</a>
+              <a href="{{ route('pages.contact') }}" class="btn btn-contrast form-contact-submit text-center c-header__button">{{ trans('home.service-button') }}</a>
           </div>
       </div>
     </div>
@@ -27,13 +27,7 @@
         <div class='row' style="margin-top: 50px;">
             <div class='col-sm-12'>
                 <div class='row'>
-                    <div class='col-sm-12'>
-                        <p class='lead lead-md text-left'>Kecskemétről az M5-ös autópálya nyugati lehajtójánál található központi bázisunkról biztosítjuk Ügyfeleink részére az állandó kamion és pótkocsi alkatrész ellátást akár azonnali kiszállítással bárhova, ahova Ügyfelünk kívánja. Kérésre a nap 24 órájában rendelkezésre állunk, műszaki segítséget nyújtunk, maximálisan rugalmasan kezeljük az Ön kérését. Ráadásul a kamion és pótkocsi alkatrészeket nálunk a lehető legjobb áron szerezheti meg.</p>
-                        <p class='lead lead-md text-left'>Alkatrészeinkre 12 hónap jótállást vállalunk, garanciális probléma esetén azonnal vizsgáljuk a problémát központi raktárunkban és Ügyfeleink részére egy esetleges problémát a legkedvezőbb módon bírálunk el.</p>
-                        <p class='lead lead-md text-left'>
-                            <strong>Részletes kiszállítási információkért, egyénileg személyre szabott azonnali alkatrész árajánlatért keresse értékesítő kollégánkat most a <a href="tel:+36308504403">+36308504403</a> -as számon, most!</strong>
-                        </p>
-                    </div>
+                    <div class='col-sm-12'>{!! trans('commerce.content') !!}</div>
                 </div>
             </div>
         </div>
@@ -42,7 +36,7 @@
                 <div class='page-header page-header-with-icon' style="margin-top:50px;">
                     <i class='fa fa-shopping-cart'></i>
                     <h2>
-                        Szolgáltatásaink
+                        {{ trans('home.services') }}
                     </h2>
                 </div>
             </div>
@@ -56,7 +50,7 @@
                                 <i class='fa fa-truck text-white'></i>
                             </div>
                             <div class='content'>
-                                <h3 class='title' style="margin-top: 15px;">Kamion alkatrész kereskedelem</h3>
+                                <h3 class='title' style="margin-top: 15px;">{{ trans('commerce.services-first') }}</h3>
                             </div>
                         </div>
                         <div class='col-sm-4 icon-box c-services__item'>
@@ -64,7 +58,7 @@
                                 <i class='fa fa-wrench text-white'></i>
                             </div>
                             <div class='content'>
-                                <h3 class='title' style="margin-top: 15px;">Pótkocsi alkatrész kereskedelem</h3>
+                                <h3 class='title' style="margin-top: 15px;">{{ trans('commerce.services-second') }}</h3>
                             </div>
                         </div>
                         <div class='col-sm-4 icon-box c-services__item'>
@@ -72,7 +66,7 @@
                                 <i class='fa fa-clock-o text-white'></i>
                             </div>
                             <div class='content'>
-                                <h3 class='title' style="margin-top: 15px;">Kamion és pótkocsi alkatrész kiszállítás</h3>
+                                <h3 class='title' style="margin-top: 15px;">{{ trans('commerce.services-third') }}</h3>
                             </div>
                         </div>
                     </div>

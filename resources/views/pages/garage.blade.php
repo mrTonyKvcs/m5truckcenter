@@ -15,9 +15,9 @@
               <h1 class='title'>
                   {{ trans('navbar.garage') }}
               </h1>
-              <h3 class="c-header__subtitle">Non-stop kamion és pótkocsi szervizszolgáltatásunkhoz hívja az alábbi számot vagy kérjen ajánlatot!</h3>
+              <h3 class="c-header__subtitle">{{ trans('garage.subtitle') }}</h3>
               <a href="tel:+36308504403" class="c-header__phone">+36308504403</a><br>
-              <a href="{{ route('pages.contact') }}" class="btn btn-contrast form-contact-submit text-center c-header__button">Ajánlatkérés</a>
+              <a href="{{ route('pages.contact') }}" class="btn btn-contrast form-contact-submit text-center c-header__button">{{ trans('home.service-button') }}</a>
           </div>
       </div>
     </div>
@@ -28,14 +28,7 @@
         <div class='row' style="margin-top: 50px;">
             <div class='col-sm-12'>
                 <div class='row'>
-                    <div class='col-sm-12'>
-                        <p class='lead lead-md text-left'>Nem kell kétségbe esnie, ha munkaeszköze műszaki meghibásodás miatt nem tudja tovább folytatni fuvar feladatát. Magas szakképzettséggel és tapasztalattal rendelkező kamion és pótkocsi szervizes kollégáink a nap 24 órájában azonnali rendelkezésre állnak, hogy az időkiesést a lehető leghatékonyabb módszerekkel minimálisra csökkentsük.</p>
-                        <p class='lead lead-md text-left'>Bárhol, bármilyen körülmények közt műszaki mentést, helyszíni javítást végzünk, kereskedelmünk háttérkiszolgálásával úgy érkezünk a javítás helyszínére, hogy minden lehetséges meghibásodott alkatrész, szerszám, segédanyag kéznél legyen.
-</p>
-                        <p class='lead lead-md text-left'>
-                            <strong>Részletes javítási díjakért, egyénileg személyre szabott árajánlatért keresse értékesítő kollégánkat a <a href="tel:+36308504403">+36308504403</a>-as számon, most!</strong>
-                        </p>
-                    </div>
+                    <div class='col-sm-12'>{!! trans('garage.content') !!}</div>
                 </div>
             </div>
         </div>
@@ -44,7 +37,7 @@
                 <div class='page-header page-header-with-icon' style="margin-top:50px;">
                     <i class='fa fa-wrench'></i>
                     <h2>
-                        Szolgáltatásaink
+                        {{ trans('home.services') }}
                     </h2>
                 </div>
             </div>
@@ -58,7 +51,7 @@
                                 <i class='fa fa-truck text-white'></i>
                             </div>
                             <div class='content'>
-                                <h3 class='title' style="margin-top:17px;">Kamion szerviz</h3>
+                                <h3 class='title' style="margin-top:17px;">{{ trans('garage.services-first') }}</h3>
                             </div>
                         </div>
                         <div class='col-sm-4 icon-box c-services__item'>
@@ -66,7 +59,7 @@
                                 <i class='fa fa-wrench text-white'></i>
                             </div>
                             <div class='content'>
-                                <h3 class='title' style="margin-top:17px;">Pótkocsi szerviz</h3>
+                                <h3 class='title' style="margin-top:17px;">{{ trans('garage.services-second') }}</h3>
                             </div>
                         </div>
                     </div>
@@ -75,7 +68,7 @@
         </div>
         <div class="row" style="margin-top: 70px;">
             <div class="col-md-12 text-center">
-                <a href="{{ route('pages.contact') }}" class="btn btn-contrast btn-block form-contact-submit">Elérhetőségeink / Ajánlatkérés</a>
+                <a href="{{ route('pages.contact') }}" class="btn btn-contrast btn-block form-contact-submit">{{ trans('home.service-button') }}</a>
             </div>
         </div>
 	</div>

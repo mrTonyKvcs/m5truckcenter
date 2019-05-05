@@ -8,9 +8,9 @@
                 <h1 class='title'>
                     {{ trans('contact.title') }}
                 </h1>
-                <h3 class="c-header__subtitle">Részletes javítási díjakért, egyénileg személyre szabott árajánlatért keresse értékesítő kollégánkat!</h3>
+                <h3 class="c-header__subtitle">{{ trans('contact.subtitle') }}</h3>
                 <a href="tel:+36308504403" class="c-header__phone" style="margin-bottom: 20px;">+36308504403</a>
-                <a href="#message" class="btn btn-contrast form-contact-submit text-center c-header__button">Ajánlatkérés</a>
+                <a href="#message" class="btn btn-contrast form-contact-submit text-center c-header__button">{{ trans('home.service-button') }}</a>
             </div>
         </div>
     </div>

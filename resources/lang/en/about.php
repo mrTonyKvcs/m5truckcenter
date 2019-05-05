@@ -1,13 +1,16 @@
 <?php
 return [
 	'title'	=> 'About us',
+    'subtitle' => 'Contact our sales colleague for detailed repair fees, individually tailored quotes!',
 	'who'	=> 'Who we are',
 	'team'	=> 'Our Team',
-	'text'	=> 'Our business started in Kecskemét – at the center territory of Hungary at the beginning of year 2017. Our main profile is the wholesale and retail trade of truck and trailer parts. There are many years of professional knowledge and qualifications behind our colleagues who are working 24 hours a day to make the orders exactly and precisely. Whether it is any type of truck or trailer, our colleagues offer you an instant quote, and from our flexible delivery methods you can choose how you would like to get the requested part.We consider our Clients&#39; maximum comfort, we understand that prompt replacement of defective parts is extremely important, we do our best to be happy with our services, including instant home delivery, professional information and experience transfer. We have national and international supplier relations, we do not know impossible to solve problems. With the continuous expansion of our inventory, we get the requested part immediately if it is not in stock, our supplier network has the most up-to- date logistics. Find our colleagues with confidence!',
+	'text'	=> "Our company started in the beginning of 2017 in Kecskemét. Our main profile is truck and trailer parts retail and wholesale. We have several years of professional knowledge and training behind our employees who work 24 hours a day to make orders accurately and precisely. Whether it's a truck of any type, a vintage truck or a trailer, our colleagues will give you an instant quote, and from our flexible shipping options you can choose how you want to get the requested part. We consider the maximum convenience of our Customers to be important, we are aware that the immediate replacement of defective parts is extremely important, we will do our best to satisfy our services, including immediate delivery, professional information and experience transfer. We try to satisfy every customer's demand, if you have any requests, our colleagues are willing to help you. We have national and international supplier relationships, we are not able to solve problems. In addition to the continuous expansion of our stock, we immediately obtain the requested parts if there is no stock, our supplier network has the most up-to-date logistics. Look for our colleagues with confidence.",
 	'manager'				=> 'Manager',
 	'manager-name'			=> 'Milán Ugrik',
 	'manager-text'			=> 'Selling, quoting, purchasing, technical assistance, import, export',
-	'service-manager'		=> 'Sales manager',
-	'service-manager-name'	=> 'Tamás Rácz',
-	'service-manager-text'	=> 'Selling, quoting, purchasing, technical assistance',
+	'service-manager'		=> 'Parts delivery',
+	'service-manager-name'	=> 'Péter Horváth',
+	'service-manager-text'	=> '',
+    'mechanic-name' => 'István Szabó',
+    'mechanic' => 'Truck and trailer mechanic',
 ];

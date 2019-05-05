@@ -1,6 +1,7 @@
 <?php
 return [
 	'title'			=> 'Elérhetőségek',
+    'subtitle' => 'Contact our sales colleague for detailed repair fees, individually tailored quotes!',
 	'contact-info'	=> 'Elérhetőségeink',
 	'contact-form'	=> 'ÜZENET KÜLDÉS / AJÁNLATKÉRÉS',
 	'shop'			=> 'Üzletünk, központi raktárunk',
