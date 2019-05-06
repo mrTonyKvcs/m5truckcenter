@@ -50,8 +50,8 @@
         </li>
         <li class="dropdown">
           <a class='dropdown-toggle' data-delay='50' data-hover='dropdown' data-toggle='dropdown' href='#'>
-            <span>
-              {{ trans('navbar.language') }}
+            <span style="display:flex; align-items: center">
+                <img src="/images/flag/{{ LaravelLocalization::setLocale() }}.png" style="width: 25px; height: 25px; margin-right: 5px;" alt="">
               <i class='fa fa-angle-down'></i>
             </span>
           </a>
@@ -59,7 +59,8 @@
             @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
               <li>
                   <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                      {{ $properties['native'] }}
+                      {{--{{ $properties['native'] }}--}}
+                      {{ $localeCode }}
                   </a>
               </li>
             @endforeach
