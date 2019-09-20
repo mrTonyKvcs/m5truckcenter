@@ -14,5 +14,11 @@ return [
 	'saturday'		=> 'Saturday',
 	'sunday'		=> 'Sunday',
 
-	'message'		=> 'Message'
+    'message'		=> 'Message',
+
+    //Email
+    'office'    => 'Office',
+    'sales'     => 'Sales',
+    'service'   => 'Service',
+    'finance'   => 'Finance'
 ];

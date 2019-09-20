@@ -15,5 +15,11 @@ return [
 	'saturday'		=> 'Szombat',
 	'sunday'		=> 'Vasárnap',
 
-	'message'		=> 'Üzenet'
+    'message'		=> 'Üzenet',
+
+    //Email
+    'office'    => 'Iroda',
+    'sales'     => 'Értékesítés',
+    'service'   => 'Szerviz',
+    'finance'   => 'Pénzügy'
 ];
