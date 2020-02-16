@@ -38,7 +38,7 @@
             <div class='icon icon-wrap'>
               <i class='fa fa-envelope'></i>
             </div>
-            <div class='content'><a href="mailto:info@m5truckcenter.hu">info@m5truckcenter.hu</a></div>
+            <div class='content'><a href="mailto:info@m5truckcenter.hu">info@m5truckcenter.com</a></div>
           </div>
         </div>
       </div>
