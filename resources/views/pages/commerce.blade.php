@@ -1,8 +1,9 @@
 @extends('layouts.app')
-@section('title', 'Kamion és pótkocsi alkatrész kereskedelem Kecskeméten')
+
+@section('title',  trans('meta-tags.commerce-title') )
 
 @section('description')
-    <meta name='description' content='Kamion és pótkocsi alkatrészét azonnal raktárról vagy 3 órán belül átadjuk vagy kiszállítjuk. Hívja kamion és pótkocsi alkatrész szaküzletünket a +36308504403-as számon!'>
+    <meta name='description' content='{{ trans('meta-tags.commerce-description') }}'>
 @endsection
 
 @section('content')

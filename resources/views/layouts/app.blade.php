@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if lt IE 9]> <html class="lt-ie9" lang="en"> <![endif]-->
 <!--[if !IE] -->
-<html lang='en'>
+<html lang='{{ LaravelLocalization::getCurrentLocale() }}'>
     <!-- <![endif] -->
     <head>
         <meta charset="utf-8">
@@ -9,19 +9,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {{-- CSRF Token --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>@hasSection('title') @yield('title') @else 0-24 KAMION SZERVIZ ÉS ALKATRÉSZ- M5 TRUCK CENTER @endif</title>
+        <title>@hasSection('title') @yield('title') @else {{ trans('meta-tags.home-title') }} @endif</title>
 
         {{-- Styles --}}
         @hasSection('description')
             @yield('description')
         @else
-            <meta name='description' content='@M5 Truck Center alkatrész kereskedelem, 0-24 kamion szervíz'>
+            <meta name='description' content='{{ trans('meta-tags.home-description') }}'>
         @endif
         <meta name="keywords" content="kamion alkatrész, alkatrész kereskedelem, pótkocsi alkatrész, kamion szervíz, 0-24 kamion mentés és szervíz">
         <meta name="robots" content="index, follow">
         <meta name="revisit-after" content="1 Months">
-        <meta name="author" content="M5 Truck Center">
-        <meta name="copyright" content="M5 Truck Center">
+        <meta name="author" content="Non Stop Truck Service">
+        <meta name="copyright" content="Non Stop Truck Service">
         <meta name="distribution" content="global">
         <meta name="language" content="HU">
         <meta name="language" content="EN">

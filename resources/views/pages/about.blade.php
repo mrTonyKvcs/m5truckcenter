@@ -1,4 +1,10 @@
 @extends('layouts.app')
+
+@section('title', trans('meta-tags.about-title'))
+
+@section('description')
+    <meta name='description' content='{{trans('meta-tags.about-description')}}'>
+@endsection
 @section('content')
     <div id='main-content-header' class="bg-about">
         <div class='container'>

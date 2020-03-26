@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'Non-Stop Kamion és pótkocsi szerviz Kecskeméten')
+@section('title', trans('meta-tags.garage-title'))
 
 @section('description')
-    <meta name='description' content='Elromlott kamionját, pótkocsiját 0-24 h-ban, azonnali indulással az út szélén megjavítjuk. Hívja kamion és pótkocsi szervizünket a +36308504403-as számon!'>
+    <meta name='description' content='{{trans('meta-tags.garage-description')}}'>
 @endsection
 
 @section('content')
