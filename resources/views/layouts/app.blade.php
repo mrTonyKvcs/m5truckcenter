@@ -27,8 +27,8 @@
         <meta name="language" content="EN">
 
         <!--[if IE]> <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'> <![endif]-->
-        <link href='/assets/images/m5_logo.png' rel='shortcut icon' type='image/x-icon'>
-        <link href='/assets/images/m5_logo.png' rel='apple-touch-icon-precomposed'>
+        <link href='/images/nonstop_truckservice_favicon.png' rel='shortcut icon' type='image/x-icon'>
+        <link href='/images/nonstop_truckservice_favicon.png' rel='apple-touch-icon-precomposed'>
         {{-- / required stylesheets --}}
         <link href="/assets/stylesheets/bootstrap/bootstrap.min.css" media="all" id="bootstrap" rel="stylesheet" type="text/css" />
         <link href="/assets/stylesheets/jednotka_red.css" media="all" id="colors" rel="stylesheet" type="text/css" />

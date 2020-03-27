@@ -78,20 +78,20 @@
             <ul class='list-unstyled'>
               <li>
                   <label>{{ trans('contact.sales') }}: </label>
-                  <a href="mailto:impex@m5truckcenter.com">impex@m5truckcenter.com</a>
+                  <a href=" truckservicekecskemet@gmailcom">truckservicekecskemet@gmail.com</a>
               </li>
-              <li>
-                  <label>{{ trans('contact.office') }}: </label>
-                  <a href="mailto:info@m5truckcenter.com"> info@m5truckcenter.com</a>
-              </li>
-              <li>
-                  <label>{{ trans('contact.service') }}: </label>
-                  <a href="mailto:service@m5truckcenter.com">service@m5truckcenter.com</a>
-              </li>
-              <li>
-                  <label>{{ trans('contact.finance') }}: </label>
-                  <a href="mailto:invoice@m5truckcenter.com">invoice@m5truckcenter.com</a>
-              </li>
+              {{--<li>--}}
+                  {{--<label>{{ trans('contact.office') }}: </label>--}}
+                  {{--<a href="mailto:info@m5truckcenter.com"> info@m5truckcenter.com</a>--}}
+              {{--</li>--}}
+              {{--<li>--}}
+                  {{--<label>{{ trans('contact.service') }}: </label>--}}
+                  {{--<a href="mailto:service@m5truckcenter.com">service@m5truckcenter.com</a>--}}
+              {{--</li>--}}
+              {{--<li>--}}
+                  {{--<label>{{ trans('contact.finance') }}: </label>--}}
+                  {{--<a href="mailto:invoice@m5truckcenter.com">invoice@m5truckcenter.com</a>--}}
+              {{--</li>--}}
             </ul>
           </div>
           <div class='col-sm-3'>

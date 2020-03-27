@@ -3,7 +3,7 @@
     <div class='row'>
       <div class='col-md-3 col-sm-6 info-box'>
         <div class='logo-container'>
-          <img alt="Jednotka" width="117" height="39" src="/assets/images/m5_bg_logo.png" />
+          <img alt="Jednotka" width="255" height="55" src="/images/logo.png" />
         </div>
         <p class='no-mg-b'>{{ trans('home.footer-text') }}</p>
       </div>
@@ -38,7 +38,9 @@
             <div class='icon icon-wrap'>
               <i class='fa fa-envelope'></i>
             </div>
-            <div class='content'><a href="mailto:info@m5truckcenter.hu">info@m5truckcenter.com</a></div>
+            <div class='content'>
+                <a href=" truckservicekecskemet@gmailcom">truckservicekecskemet@gmail.com</a>
+            </div>
           </div>
         </div>
       </div>
@@ -81,13 +83,13 @@
           2017 M5 Truck Center
         </p>
         <div class='links'>
-            <a href="/pdfs/adatkezelési_tájékoztató.pdf" target="_blank">Adatkezelési tájékoztató</a>
-          <a class='btn btn-circle btn-medium-light btn-sm' href='https://www.facebook.com/m5truckcenter/' target="_blank">
+            <a href="/pdfs/adatkezelési_tájékoztató.pdf" style="color: #5d6771;" target="_blank">Adatkezelési tájékoztató</a>
+          <a class='btn btn-circle btn-medium-light btn-sm' href='https://www.facebook.com/nonstoptruckservicekamionszerviz/' target="_blank">
             <i class='fa fa-facebook text-dark'></i>
           </a>
-          <a class='btn btn-circle btn-medium-light btn-sm' href='https://www.instagram.com/m5truckcenter/' target="_blank">
-            <i class='fa fa-instagram text-dark'></i>
-          </a>
+          {{--<a class='btn btn-circle btn-medium-light btn-sm' href='https://www.instagram.com/m5truckcenter/' target="_blank">--}}
+            {{--<i class='fa fa-instagram text-dark'></i>--}}
+          {{--</a>--}}
         </div>
       </div>
     </div>

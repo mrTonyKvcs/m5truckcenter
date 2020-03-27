@@ -4,7 +4,7 @@ return [
     'title' => 'Non-stop Kamion és pótkocsi szerviz, azonnali indulással',
     'subtitle' => 'Rövid időn belül, az út mellett megjavítjuk!',
     'call-text' => 'Hívjon a <a href="tel:+36308504403" class="c-header__phone">+36308504403</a>-as számon!',
-    'short-text' => 'M5 Truck Center kamion és pótkocsi szerviz, alkatrész kis- és nagykereskedelem.',
+    'short-text' => 'Non-stop kamion és pótkocsi szerviz, alkatrész kis- és nagykereskedelem.',
     'button' => 'Ajánlatkérés',
 	'first-title'	=> 'Alkatrészt szolgáltatunk',
 	'second-title'	=> 'Azonnal javítjuk',
