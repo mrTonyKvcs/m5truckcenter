@@ -30,7 +30,7 @@ DETAILS-részletek',
     'service-button' => 'CONTACT/INQUIRY',
 
     //six services
-    'services-title' => '6 MAIN REASONS TO CHOSE M5 TRUCK CENTER NONSTOP SERVICE AND PARTS TRADE',
+    'services-title' => '6 MAIN REASONS TO CHOSE NON-STOP TRUCK SERVICE',
 
     //experience
     'experience-text' => 'The expertise of our specialists specialized in the repair of trucks and trailers is a guarantee that they will be able to repair any errors.',

@@ -40,7 +40,8 @@
     </head>
     <body class='homepage'>
         {{--<div id='wrapper'>--}}
-            <header id='header'>
+            <header id='header' style="">
+            {{--<header id='header' style="background: rgba(255,255,255, 0.9);">--}}
                 @include('partials.navbar')
             </header>
             <div id='main' role='main'>

@@ -5,6 +5,33 @@
 @import "components/_panels";
 @import "components/_services";
 
+#header {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#header .navbar-default.navbar-collapsed-sm .navbar-nav > li > a span {
+    color: #163762;
+    font-weight: 600;
+    text-shadow: none;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #5d6771;
+    }
+}
+
+#header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a span {
+    color: #5d6771;
+}
+
+#main-content-header .title {
+    color: #163762;
+}
+
+.title {
+    color: #163762;
+}
+
 .mt-70 {
   margin-top: 70px;
 }
@@ -81,4 +108,9 @@
         width: 2.5rem;
         height: 2.5rem;
     }
+}
+
+#footer #footer-main {
+    background-color: #5d6771;
+    color: #fff;
 }

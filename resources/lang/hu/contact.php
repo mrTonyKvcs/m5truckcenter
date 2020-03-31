@@ -1,7 +1,7 @@
 <?php
 return [
 	'title'			=> 'Elérhetőségek',
-    'subtitle' => 'Contact our sales colleague for detailed repair fees, individually tailored quotes!',
+    'subtitle' => 'Ha SOS kamion szervizre van szüksége, tárcsázza a Non Stop Truck Service éjjel-nappal hívható számát! Azonnal indulunk, az út mellett javítunk!',
 	'contact-info'	=> 'Elérhetőségeink',
 	'contact-form'	=> 'ÜZENET KÜLDÉS / AJÁNLATKÉRÉS',
 	'shop'			=> 'Üzletünk, központi raktárunk',

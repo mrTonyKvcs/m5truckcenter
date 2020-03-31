@@ -80,7 +80,7 @@
         <p class='copyright'>
           Copyright
           &copy;
-          2017 M5 Truck Center
+          2017 NONSTOP TRUCK SERVICE
         </p>
         <div class='links'>
             <a href="/pdfs/adatkezelési_tájékoztató.pdf" style="color: #5d6771;" target="_blank">Adatkezelési tájékoztató</a>

@@ -10,7 +10,7 @@
         margin-top: 80px;
         min-height: 200px;
         padding-bottom: 20px;
-        background: rgba(25, 25, 25, 0.8);
+        background: rgba(255, 255, 255, 0.75);
         border-radius: 5px;
 
         @include m(subpage) {
@@ -19,7 +19,7 @@
         }
 
         @include m(light) {
-            background: rgba(25, 25, 25, 0.6);
+            background: rgba(255, 255, 255, 0.75);
         }
 
         @media (max-width: 767px) {
@@ -28,6 +28,7 @@
     }
 
     @include has(title) {
+        color: #163762;
         font-size: 40px;
         line-height: 50px;
         @media (max-width: 767px) {
@@ -37,21 +38,26 @@
     }
 
     @include has(text) {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: darken(#5d6771, 15%);
     }
 
     @include has(comment) {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: darken(#5d6771, 15%);
     }
 
     @include has(subtitle) {
-        color: #fff;
-        font-weight: 300;
+        color: darken(#5d6771, 15%);
+        font-size: 2.5rem;
+        font-weight: 400;
         margin-bottom: 20px;
     }
 
     @include has(phone) {
-        color: #fff;
+        color: #163762;
         font-size: 21px;
         font-weight: 600;
         text-decoration: underline;
@@ -69,7 +75,7 @@
 }
 
 #header {
-    background: rgba(25, 25, 25, 0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 #header .navbar-default.navbar-collapsed-sm {
