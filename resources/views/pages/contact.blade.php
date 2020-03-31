@@ -54,8 +54,8 @@
             </div>
             <h3>{{ trans('contact.address') }}</h3>
             <ul class='list-unstyled'>
-              <li>{{ trans('contact.seat') }}:</li>
-              <li>6000 Kecskemét, Görbe utca 9.</li>
+              {{--<li>{{ trans('contact.seat') }}:</li>--}}
+              {{--<li>6000 Kecskemét, Görbe utca 9.</li>--}}
               <strong><li>{{ trans('contact.shop') }}</li>
               <li>6000 Kecskemét, Felsőcsalános 65.</li></strong>
             </ul>

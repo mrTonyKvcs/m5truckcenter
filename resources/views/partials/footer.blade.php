@@ -83,7 +83,7 @@
           2017 NONSTOP TRUCK SERVICE
         </p>
         <div class='links'>
-            <a href="/pdfs/adatkezelési_tájékoztató.pdf" style="color: #5d6771;" target="_blank">Adatkezelési tájékoztató</a>
+            <a href="/pdfs/adatkezelesi-tajekoztato.pdf" style="color: #5d6771;" target="_blank">Adatkezelési tájékoztató</a>
           <a class='btn btn-circle btn-medium-light btn-sm' href='https://www.facebook.com/nonstoptruckservicekamionszerviz/' target="_blank">
             <i class='fa fa-facebook text-dark'></i>
           </a>

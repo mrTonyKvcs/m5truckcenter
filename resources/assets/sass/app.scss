@@ -24,6 +24,30 @@
     color: #5d6771;
 }
 
+
+@media (max-width: 767px) {
+
+    #header .container {
+        padding: 0;
+    }
+
+    #header .navbar-default.navbar-collapsed-sm .navbar-toggle {
+        margin-right: 5px;
+    }
+
+    #header .navbar-default.navbar-collapsed-sm .navbar-collapse {
+        background-color: #163762;
+    }
+
+    #header .navbar-default.navbar-collapsed-sm .navbar-nav > li > a span {
+        color: #fff;
+    }
+
+    #header .navbar-default.navbar-collapsed-sm .navbar-toggle .icon-bar {
+        background-color: #163762;
+    }
+}
+
 #main-content-header .title {
     color: #163762;
 }
