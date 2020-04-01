@@ -52,6 +52,12 @@
     color: #163762;
 }
 
+@media (min-width: 768px) {
+    .icon-boxes .icon {
+        margin-right: 5px;
+    }
+}
+
 .title {
     color: #163762;
 }

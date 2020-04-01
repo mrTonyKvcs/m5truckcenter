@@ -3,7 +3,7 @@
     <div class='row'>
       <div class='col-md-3 col-sm-6 info-box'>
         <div class='logo-container'>
-          <img alt="Jednotka" width="255" height="55" src="/images/logo.png" />
+          <img alt="Jednotka" width="245" height="55" src="/images/logo-white.png" />
         </div>
         <p class='no-mg-b'>{{ trans('home.footer-text') }}</p>
       </div>
@@ -83,10 +83,10 @@
           2017 NONSTOP TRUCK SERVICE
         </p>
         <div class='links'>
-            <a href="/pdfs/adatkezelesi-tajekoztato.pdf" style="color: #5d6771;" target="_blank">Adatkezelési tájékoztató</a>
-          <a class='btn btn-circle btn-medium-light btn-sm' href='https://www.facebook.com/nonstoptruckservicekamionszerviz/' target="_blank">
-            <i class='fa fa-facebook text-dark'></i>
-          </a>
+            <a href="/pdfs/adatkezelesi-tajekoztato-uj.pdf" style="color: #5d6771;" target="_blank">Adatkezelési tájékoztató</a>
+            <a class="btn btn-circle btn-medium-light btn-sm" href="https://www.facebook.com/nonstoptruckservicekamionszerviz/" target="_blank">
+                <i class="fa fa-facebook text-dark"></i>
+            </a>
           {{--<a class='btn btn-circle btn-medium-light btn-sm' href='https://www.instagram.com/m5truckcenter/' target="_blank">--}}
             {{--<i class='fa fa-instagram text-dark'></i>--}}
           {{--</a>--}}

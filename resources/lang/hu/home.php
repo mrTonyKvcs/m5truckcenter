@@ -45,5 +45,5 @@ return [
 	//safety
 	'safety-text'	=> 'Tisztában vagyunk vele, hogy vásárlóink többsége számára az alkatrészek ára a fő meghatározó tényező. Mi fő tényezőként azt tartjuk, hogy az általunk értékesített alkatrész, biztonságos, hosszú távú működést eredményezzen a lehető legjobb áron, egy problémával egyszer kelljen csak foglalkozni.',
 
-	'footer-text'	=> 'Vállakozásunk 2017 év elején indult Kecskeméten. Fő profilunk a kamion és pótkocsi alkatrész kis és nagykereskedelem.'
+	'footer-text'	=> 'Vállalkozásunk 2017 év elején indult Kecskeméten. Fő profilunk a kamion és pótkocsi alkatrész kis és nagykereskedelem.'
 ];
