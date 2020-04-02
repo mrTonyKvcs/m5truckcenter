@@ -8,7 +8,7 @@
         <span class='icon-bar'></span>
       </button>
       <a class='navbar-brand' href='{{ route('pages.index') }}'>
-        <img alt="Jednotka" width="255" height="55" src="/images/logo.png" />
+        <img alt="Jednotka" width="" height="" src="/images/logo.png" />
       </a>
     </div>
     <div class='collapse navbar-collapse navbar-header-collapse'>

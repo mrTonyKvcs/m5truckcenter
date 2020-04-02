@@ -1,6 +1,7 @@
 <?php
 return [
 	'title'	=> 'Contact',
+    'subtitle' => 'In case you need SOS Truck Service feel free to call Nonstop Truck Service for immediate repair',
 	'contact-info'	=> 'Contact Info',
 	'contact-form'	=> 'MESSAGE/ INQUIRY',
 	'shop'			=> 'Our shop, our central warehouse',
