@@ -57,7 +57,7 @@
               {{--<li>{{ trans('contact.seat') }}:</li>--}}
               {{--<li>6000 Kecskemét, Görbe utca 9.</li>--}}
               <strong><li>{{ trans('contact.shop') }}</li>
-              <li>6000 Kecskemét, Felsőcsalános 65.</li></strong>
+              <li>6000 Kecskemét, Halasi út 29.</li></strong>
             </ul>
           </div>
           <div class='col-sm-3'>

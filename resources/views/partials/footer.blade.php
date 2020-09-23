@@ -23,7 +23,7 @@
             <div class='content'>
               6000 Kecskemét,
               <br>
-              Felsőcsalános 65.
+              Halasi út 29.
             </div>
           </div>
           <div class='icon-box'>
